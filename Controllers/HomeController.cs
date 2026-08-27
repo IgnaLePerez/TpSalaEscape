@@ -36,23 +36,48 @@ public class HomeController : Controller
     public IActionResult IngresarNombrePost(string nombre)
     {
         httpContext.Session.SetString("nombreJugador", nombre);
-        if(bd.ExistePartidaEnCurso(nombre))
+        if(BD.ExistePartidaEnCurso(nombre))
         {
             return View("DeseaContinuar");
         }
-        bd.CrearJugador(nombre);
-        bd.CrearPartida(nombre);
-        httpContext.Session.SetString("idPartida", bd.ObtenerIdNuevaPartida().ToString());
-        httpContext.Session.SetString("idSala", "0");
-        return RedirectToAction("AvanzarSala");
+        return RedirectToAction("CrearPartida");
     }
 
     public IActionResult ReescribirPartida()
     {
-        bd.ReescribirPartida(httpContext.Session.GetString("nombreJugador"));
-        httpContext.Session.SetString("idPartida", bd.ObtenerIdNuevaPartida().ToString());
+        BD.ReescribirPartida(httpContext.Session.GetString("nombreJugador"));
+        httpContext.Session.SetString("idPartida", BD.ObtenerIdNuevaPartida().ToString());
         httpContext.Session.SetString("idSala", "0");
-        return RedirectToAction("Index");
+        return RedirectToAction("AvanzarSala");
+    }
+
+    public IActionResult CrearPartida()
+    {
+        BD.CrearJugador(httpContext.Session.GetString("nombreJugador"));
+        BD.CrearPartida(httpContext.Session.GetString("nombreJugador"));
+        httpContext.Session.SetString("idPartida", BD.ObtenerIdNuevaPartida().ToString());
+        httpContext.Session.SetString("idSala", "0");
+        return RedirectToAction("AvanzarSala");
+    }
+
+    public IActionResult AvanzarSala(){
+        
+        int idSala = int.Parse(httpContext.Session.GetString("idSala"));
+        httpContext.Session.SetString("idSala", (idSala + 1).ToString());
+        BD.AvanzarSala(httpContext.Session.GetString("idPartida"), httpContext.Session.GetString("idSala"));
+        return View("Sala" + httpContext.Session.GetString("idSala"));
+    }
+
+    public IActionResult PartidaGanada()
+    {
+        return View();
+
+    }
+
+    public IActionResult PartidaPerdida()
+    {
+        return View();
+
     }
 
     public IActionResult Privacy()
