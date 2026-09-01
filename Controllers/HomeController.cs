@@ -32,7 +32,7 @@ public class HomeController : Controller
     {
         return View();
     }
-
+    
     public IActionResult IngresarNombrePost(string nombre)
     {
         httpContext.Session.SetString("nombreJugador", nombre);
@@ -51,13 +51,18 @@ public class HomeController : Controller
         return RedirectToAction("AvanzarSala");
     }
 
+    public IActionResult Dialogo()
+    {
+        return View();
+    }
+
     public IActionResult CrearPartida()
     {
         BD.CrearJugador(httpContext.Session.GetString("nombreJugador"));
         BD.CrearPartida(httpContext.Session.GetString("nombreJugador"));
         httpContext.Session.SetString("idPartida", BD.ObtenerIdNuevaPartida().ToString());
         httpContext.Session.SetString("idSala", "0");
-        return RedirectToAction("AvanzarSala");
+        return RedirectToAction("Dialogo");
     }
 
     public IActionResult AvanzarSala(){
