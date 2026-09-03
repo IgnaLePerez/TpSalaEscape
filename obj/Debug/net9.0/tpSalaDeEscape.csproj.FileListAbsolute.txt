@@ -140,3 +140,16 @@ C:\Users\49628407\TpSalaEscape\obj\Debug\net9.0\refint\tpSalaDeEscape.dll
 C:\Users\49628407\TpSalaEscape\obj\Debug\net9.0\tpSalaDeEscape.pdb
 C:\Users\49628407\TpSalaEscape\obj\Debug\net9.0\tpSalaDeEscape.genruntimeconfig.cache
 C:\Users\49628407\TpSalaEscape\obj\Debug\net9.0\ref\tpSalaDeEscape.dll
+C:\TpSalaEscape\obj\Debug\net9.0\tpSalaDeEscape.csproj.AssemblyReference.cache
+C:\TpSalaEscape\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\TpSalaEscape\obj\Debug\net9.0\tpSalaDeEscape.GeneratedMSBuildEditorConfig.editorconfig
+C:\TpSalaEscape\obj\Debug\net9.0\tpSalaDeEscape.AssemblyInfoInputs.cache
+C:\TpSalaEscape\obj\Debug\net9.0\tpSalaDeEscape.AssemblyInfo.cs
+C:\TpSalaEscape\obj\Debug\net9.0\tpSalaDeEscape.csproj.CoreCompileInputs.cache
+C:\TpSalaEscape\obj\Debug\net9.0\tpSalaDeEscape.MvcApplicationPartsAssemblyInfo.cache
+C:\TpSalaEscape\obj\Debug\net9.0\tpSalaDeEscape.RazorAssemblyInfo.cache
+C:\TpSalaEscape\obj\Debug\net9.0\tpSalaDeEscape.RazorAssemblyInfo.cs
+C:\TpSalaEscape\obj\Debug\net9.0\tpSalaDeEscape.sourcelink.json
+C:\TpSalaEscape\obj\Debug\net9.0\tpSalaDeEscape.dll
+C:\TpSalaEscape\obj\Debug\net9.0\refint\tpSalaDeEscape.dll
+C:\TpSalaEscape\obj\Debug\net9.0\tpSalaDeEscape.pdb

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\49628407\\TpSalaEscape\\tpSalaDeEscape.csproj": {}
+    "C:\\TpSalaEscape\\tpSalaDeEscape.csproj": {}
   },
   "projects": {
-    "C:\\Users\\49628407\\TpSalaEscape\\tpSalaDeEscape.csproj": {
+    "C:\\TpSalaEscape\\tpSalaDeEscape.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\49628407\\TpSalaEscape\\tpSalaDeEscape.csproj",
+        "projectUniqueName": "C:\\TpSalaEscape\\tpSalaDeEscape.csproj",
         "projectName": "tpSalaDeEscape",
-        "projectPath": "C:\\Users\\49628407\\TpSalaEscape\\tpSalaDeEscape.csproj",
+        "projectPath": "C:\\TpSalaEscape\\tpSalaDeEscape.csproj",
         "packagesPath": "C:\\Users\\49628407\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\49628407\\TpSalaEscape\\obj\\",
+        "outputPath": "C:\\TpSalaEscape\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
