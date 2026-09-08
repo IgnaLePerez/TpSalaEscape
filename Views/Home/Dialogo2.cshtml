@@ -1,0 +1,9 @@
+<script src="~/js/dialogo2.js"></script>
+<img src="images/pergoliniDialogo1.jpg" alt="Pergolini"/>
+<div>
+    <p id="txt">Bueno... sobreviviste a la primera.</p>
+</div>
+<button id="btnContinuar" onclick="AvanzarDialogo()">Continuar</button>
+<form method="post" action="@Url.Action("AvanzarSala", "Home")">
+    <input type="submit" value="Saltear diálogo"/>
+</form>

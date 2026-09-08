@@ -281,4 +281,6 @@ C:\TpSalaEscape\obj\Debug\net9.0\staticwebassets.build.endpoints.json
 C:\TpSalaEscape\obj\Debug\net9.0\tpSalaDe.6E1B99DA.Up2Date
 C:\TpSalaEscape\obj\Debug\net9.0\tpSalaDeEscape.genruntimeconfig.cache
 C:\TpSalaEscape\obj\Debug\net9.0\ref\tpSalaDeEscape.dll
-C:\TpSalaEscape\obj\Debug\net9.0\compressed\3pcz8na942-3qh7eec54x.gz
+C:\TpSalaEscape\obj\Debug\net9.0\compressed\3pcz8na942-vl52nw52bd.gz
+C:\TpSalaEscape\obj\Debug\net9.0\compressed\7isyeyphld-hlt1amuj1s.gz
+C:\TpSalaEscape\obj\Debug\net9.0\compressed\rmzy0r6z34-oplqg4er08.gz

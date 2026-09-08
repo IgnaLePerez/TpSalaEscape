@@ -1,10 +1,13 @@
+<script src="~/js/site2.js"></script>
 <main>
-    <h1 id="txtPregunta">¿de que canción es la letra?</h1>
-    <p>"Estoy muy solo y triste acá en este mundo abandonado..."</p>
+    <h1 id="txtPregunta">¿De qué canción es la letra? "Estoy muy solo y triste acá en este mundo abandonado..."</h1>
     <div class="opciones">
-        <button id="btnOpcion1" onclick="VerificarRespuesta('Don cornelio y la zona', '1')">La balsa</button>
-        <button id="btnOpcion2" onclick="VerificarRespuesta('Los ramones', '2')">Wadu wadu</button>
-        <button id="btnOpcion3" onclick="VerificarRespuesta('Soda Stereo', '3')">Motor psico</button>
-        <button id="btnOpcion4" onclick="VerificarRespuesta('Pier', '4')">Tarea fina</button>
+        <button id="btnOpcion1" onclick="VerificarRespuesta(1)">La balsa</button>
+        <button id="btnOpcion2" onclick="VerificarRespuesta(2)">Wadu Wadu</button>
+        <button id="btnOpcion3" onclick="VerificarRespuesta(3)">Motor Psico</button>
+        <button id="btnOpcion4" onclick="VerificarRespuesta(4)">Tarea Fina</button>
+    </div>
+    <div>
+        <p id="mensajeError"></p>
     </div>
 </main>
