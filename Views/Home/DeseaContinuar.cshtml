@@ -2,12 +2,18 @@
     ViewData["Title"] = "¿Desea Continuar?";
 }
 
-<h1>¿Desea continuar con su partida anterior?</h1>
+<main class="popup-page">
+    <section class="popup-panel popup-panel-continuar" aria-labelledby="continuar-titulo">
+        <h1 id="continuar-titulo" class="popup-titulo">¿Desea continuar con su partida anterior?</h1>
 
-<form method="post" action="@Url.Action("ContinuarPartida", "Home")">
-    <button type="submit">Sí</button>
-</form>
+        <div class="popup-acciones">
+            <form method="post" action="@Url.Action("ContinuarPartida", "Home")">
+                <button class="boton-retro popup-choice popup-choice-yes" type="submit">Sí</button>
+            </form>
 
-<form method="post" action="@Url.Action("ReescribirPartida", "Home")">
-    <button type="submit">No</button>
-</form>
+            <form method="post" action="@Url.Action("ReescribirPartida", "Home")">
+                <button class="boton-retro popup-choice popup-choice-no" type="submit">No</button>
+            </form>
+        </div>
+    </section>
+</main>

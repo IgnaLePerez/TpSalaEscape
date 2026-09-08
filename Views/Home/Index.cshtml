@@ -6,16 +6,18 @@
     <div class="index-content">
         <img src="~/imagenes/Logo.png" alt="Logo" />
 
-        <form method="post" action="@Url.Action("IngresarNombre", "Home")">
-            <input type="submit" value="Iniciar Partida"/>
-        </form>
+        <div>
+            <form method="post" action="@Url.Action("IngresarNombre", "Home")">
+                <input type="submit" value="Iniciar Partida" class="boton-retro menu-boton menu-boton-principal"/>
+            </form>
 
-        <form method="post" action="@Url.Action("Historia", "Home")">
-            <input type="submit" value="Historia"/>
-        </form>
+            <form method="post" action="@Url.Action("Historia", "Home")">
+                <input type="submit" value="Historia" class="boton-retro menu-boton menu-boton-historia"/>
+            </form>
 
-        <form method="post" action="@Url.Action("Integrantes", "Home")">
-            <input type="submit" value="Integrantes"/>
-        </form>
+            <form method="post" action="@Url.Action("Integrantes", "Home")">
+                <input type="submit" value="Integrantes" class="boton-retro menu-boton menu-boton-integrantes"/>
+            </form>
+        </div>
     </div>
 </main>

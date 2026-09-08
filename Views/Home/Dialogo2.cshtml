@@ -1,9 +1,18 @@
 <script src="~/js/dialogo2.js"></script>
-<img src="images/pergoliniDialogo1.jpg" alt="Pergolini"/>
-<div>
-    <p id="txt">Bueno... sobreviviste a la primera.</p>
-</div>
-<button id="btnContinuar" onclick="AvanzarDialogo()">Continuar</button>
-<form method="post" action="@Url.Action("AvanzarSala", "Home")">
-    <input type="submit" value="Saltear diálogo"/>
-</form>
+
+<main class="dialogo-retro">
+    <div class="dialogo-container">
+        <div class="dialogo-imagen">
+            <img src="~/imagenes/MarioDialogo1.png" alt="Mario Pergolini"/>
+        </div>
+        <div class="dialogo-caja">
+            <p id="txt" class="dialogo-texto">Bueno... sobreviviste a la primera.</p>
+        </div>
+        <div class="dialogo-botones">
+            <button id="btnContinuar" class="boton-retro" onclick="AvanzarDialogo()">Continuar</button>
+            <form method="post" action="@Url.Action("AvanzarSala", "Home")">
+                <input type="submit" class="boton-retro" value="Saltear"/>
+            </form>
+        </div>
+    </div>
+</main>

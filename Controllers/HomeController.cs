@@ -49,6 +49,11 @@ public class HomeController : Controller
         Partida partida = BD.ObtenerPartidaEnCurso(nombreJugador);
         HttpContext.Session.SetString("idPartida", partida.id.ToString());
         HttpContext.Session.SetString("idSala", partida.idSala.ToString());
+        string sala = HttpContext.Session.GetString("idSala");
+        if(sala == "0")
+        {
+            return RedirectToAction("Dialogo");
+        }
         return View("Sala" + HttpContext.Session.GetString("idSala"));
     }
 

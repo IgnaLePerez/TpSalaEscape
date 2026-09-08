@@ -151,46 +151,53 @@ html, body {
 .dialogo-retro {
   width: 100%;
   min-height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.55)), url('/imagenes/Sótano.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   background-color: #0a0a0a;
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  padding: 40px 20px;
-  gap: 40px;
+  align-items: end;
+  padding: 40px 24px;
 }
 
 .dialogo-container {
-  display: flex;
-  align-items: flex-end;
-  gap: 30px;
-  max-width: 1100px;
-  justify-content: center;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: auto auto auto;
+  align-items: end;
+  width: min(100%, 1280px);
+  row-gap: 0;
 }
 
 .dialogo-imagen {
-  flex-shrink: 0;
+    grid-column: 1;
+    grid-row: 1;
+    width: 380px;
+    margin-left: 0px;
+    pointer-events: none;
 }
 
 .dialogo-imagen img {
-  width: 300px;
+  display: block;
+  width: 100%;
   height: auto;
   image-rendering: pixelated;
   image-rendering: crisp-edges;
-  border: 8px solid #000000;
-  box-shadow: 0px 10px 0px rgba(0, 0, 0, 0.8);
 }
 
 .dialogo-caja {
-  flex: 1;
-  min-width: 400px;
-  background-color: rgba(30, 20, 15, 0.98);
+  grid-column: 1;
+  grid-row: 2;
+  min-width: 0;
+  min-height: 180px;
+  background-color: rgba(0, 0, 0, 0.78);
   border: 10px solid #000000;
-  padding: 30px;
+  padding: 36px 42px 36px 70px;
   box-shadow: 
     0px 10px 0px rgba(0, 0, 0, 0.8),
-    inset 2px 2px 0px rgba(120, 60, 40, 0.5),
+    inset 2px 2px 0px rgba(120, 60, 40, 0.35),
     inset -2px -2px 0px rgba(0, 0, 0, 0.8);
   position: relative;
   background-image: 
@@ -222,24 +229,36 @@ html, body {
 }
 
 .dialogo-botones {
+  grid-column: 1;
+  grid-row: 3;
   display: flex;
-  gap: 20px;
-  justify-content: center;
-  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 12px;
+  justify-content: flex-end;
   width: 100%;
-  max-width: 600px;
+  padding-top: 12px;
 }
 
 .dialogo-botones form {
-  flex: 1;
-  min-width: 240px;
+  flex: 0 0 140px;
+  width: 140px;
+}
+
+.dialogo-botones .boton-retro,
+.dialogo-botones input[type="submit"] {
+  width: 140px;
+  min-height: 48px;
+  padding: 12px 8px;
+  font-size: 11px;
+  line-height: 1.4;
+  letter-spacing: 1px;
 }
 
 /* BOTONES RETRO GENERALES */
 .boton-retro,
 .dialogo-botones input[type="submit"] {
   font-family: 'Press Start 2P', cursive;
-  font-size: 18px;
+  font-size: 11px;
   font-weight: 900;
   padding: 20px 25px;
   background-color: #8B0000;
@@ -285,8 +304,7 @@ html, body {
 /* RESPONSIVE */
 @media (max-width: 900px) {
   .dialogo-container {
-    flex-direction: column;
-    align-items: center;
+    grid-template-columns: minmax(0, 1fr);
   }
 
   .dialogo-imagen img {
@@ -295,6 +313,19 @@ html, body {
 
   .dialogo-caja {
     min-width: 100%;
+  }
+
+  .dialogo-container {
+    padding-left: 0;
+  }
+
+  .dialogo-container .dialogo-caja {
+    min-width: 0;
+  }
+
+  .dialogo-imagen {
+    width: 210px;
+    margin-left: 18px;
   }
 
   .pregunta-retro {
@@ -327,6 +358,43 @@ html, body {
     font-size: 14px;
   }
 
+  .dialogo-retro {
+    padding: 24px 12px;
+  }
+
+  .dialogo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0;
+  }
+
+  .dialogo-imagen {
+    order: 1;
+    align-self: center;
+    width: 190px;
+    margin: 0;
+  }
+
+  .dialogo-caja {
+    order: 2;
+    min-height: 190px;
+    padding: 28px 20px;
+  }
+
+  .dialogo-botones {
+    order: 3;
+    justify-content: flex-end;
+    width: 100%;
+    padding-top: 22px;
+  }
+
+  .dialogo-botones form,
+  .dialogo-botones .boton-retro,
+  .dialogo-botones input[type="submit"] {
+    width: 150px;
+  }
+
   .boton-retro,
   .dialogo-botones input[type="submit"] {
     font-size: 14px;
@@ -336,31 +404,404 @@ html, body {
 }
 
 .index-page {
-  width: 100%;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url('/imagenes/Sótano.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-image: url(/imagenes/Home.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .index-content {
-  width: min(60%, 720px);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 18px;
+    width: min(60%, 720px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 16px; */
+    padding: 8% 0;
 }
 
 .index-content img {
   width: 100%;
   max-width: 100%;
   height: auto;
+}
+
+.index-content div{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5%;
+}
+
+.index-content form {
+  width: min(78%, 500px);
+}
+
+.index-content .menu-boton {
+  min-height: 66px;
+  border-width: 6px;
+  letter-spacing: 2px;
+}
+
+.index-content .menu-boton-principal {
+  min-height: 88px;
+  font-size: 23px;
+  background-color: #b52b2b;
+  border-color: #120606;
+  box-shadow:
+    0px 9px 0px #120606,
+    inset 3px 3px 0px rgba(255, 180, 120, 0.45),
+    inset -3px -3px 0px rgba(45, 0, 0, 0.9);
+}
+
+.index-content .menu-boton-principal:hover {
+  background-color: #d04435;
+  top: 3px;
+  box-shadow:
+    0px 6px 0px #120606,
+    inset 3px 3px 0px rgba(255, 210, 150, 0.5),
+    inset -3px -3px 0px rgba(45, 0, 0, 0.9);
+}
+
+.index-content .menu-boton-principal:active {
+  top: 9px;
+  box-shadow:
+    0px 0px 0px #120606,
+    inset 3px 3px 0px rgba(45, 0, 0, 0.9),
+    inset -3px -3px 0px rgba(255, 180, 120, 0.45);
+}
+
+.index-content .menu-boton-historia {
+  background-color: #76502b;
+  box-shadow:
+    0px 6px 0px #120606,
+    inset 3px 3px 0px rgba(226, 190, 116, 0.35),
+    inset -3px -3px 0px rgba(30, 15, 5, 0.9);
+}
+
+.index-content .menu-boton-historia:hover {
+  background-color: #956536;
+}
+
+.index-content .menu-boton-integrantes {
+  background-color: #49305a;
+  box-shadow:
+    0px 6px 0px #120606,
+    inset 3px 3px 0px rgba(194, 145, 211, 0.35),
+    inset -3px -3px 0px rgba(20, 5, 30, 0.9);
+}
+
+.index-content .menu-boton-integrantes:hover {
+  background-color: #624176;
+}
+
+/* CREDITOS DEL JUEGO */
+.integrantes-page {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  background-image:
+    linear-gradient(rgba(10, 5, 8, 0.7), rgba(10, 5, 8, 0.88)),
+    url(/imagenes/Home.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.integrantes-panel {
+  width: min(100%, 900px);
+  padding: 38px 42px 42px;
+  background-color: rgba(30, 20, 15, 0.96);
+  border: 10px solid #000000;
+  box-shadow:
+    0px 12px 0px rgba(0, 0, 0, 0.85),
+    inset 3px 3px 0px rgba(120, 60, 40, 0.5),
+    inset -3px -3px 0px rgba(0, 0, 0, 0.9);
+  text-align: center;
+}
+
+.integrantes-titulo {
+  color: #e8d4b0;
+  font-size: clamp(20px, 4vw, 32px);
+  line-height: 1.4;
+  text-shadow: 4px 4px 0px #000000;
+  letter-spacing: 2px;
+}
+
+.integrantes-subtitulo {
+  margin: 16px 0 30px;
+  color: #d4534f;
+  font-size: 14px;
+  line-height: 1.6;
+  text-shadow: 2px 2px 0px #000000;
+}
+
+.integrantes-lista {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.integrante-card {
+  min-height: 190px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 14px;
+  background-color: #241a18;
+  border: 6px solid #000000;
+  box-shadow:
+    0px 6px 0px #120606,
+    inset 3px 3px 0px rgba(120, 60, 40, 0.42),
+    inset -3px -3px 0px rgba(0, 0, 0, 0.85);
+}
+
+.integrante-card:nth-child(2) {
+  background-color: #2d2020;
+}
+
+.integrante-card:nth-child(3) {
+  background-color: #241c2d;
+}
+
+.integrante-numero {
+  margin-bottom: 20px;
+  color: #d4534f;
+  font-size: 15px;
+  text-shadow: 2px 2px 0px #000000;
+}
+
+.integrante-card:nth-child(3) .integrante-numero {
+  color: #b889c6;
+}
+
+.integrante-card h2 {
+  color: #e8d4b0;
+  font-size: 15px;
+  line-height: 1.7;
+  text-shadow: 2px 2px 0px #000000;
+}
+
+.integrante-card p {
+  margin-top: 16px;
+  color: #c49a68;
+  font-size: 12px;
+  line-height: 1.5;
+  text-shadow: 2px 2px 0px #000000;
+}
+
+.integrantes-volver {
+  width: min(100%, 360px);
+  margin: 34px auto 0;
+  text-decoration: none;
+  background-color: #76502b;
+}
+
+.integrantes-volver:hover {
+  background-color: #956536;
+}
+
+/* PANTALLAS DE DECISION DEL JUEGO */
+.popup-page {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  background-image:
+    linear-gradient(rgba(10, 5, 8, 0.7), rgba(10, 5, 8, 0.88)),
+    url(/imagenes/Home.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.popup-panel {
+  width: min(100%, 720px);
+  padding: 42px;
+  background-color: rgba(30, 20, 15, 0.96);
+  border: 10px solid #000000;
+  box-shadow:
+    0px 12px 0px rgba(0, 0, 0, 0.85),
+    inset 3px 3px 0px rgba(120, 60, 40, 0.5),
+    inset -3px -3px 0px rgba(0, 0, 0, 0.9);
+  text-align: center;
+  background-image: repeating-linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.08) 0px,
+    rgba(0, 0, 0, 0.08) 2px,
+    transparent 2px,
+    transparent 4px
+  );
+}
+
+.popup-titulo {
+  color: #e8d4b0;
+  font-size: clamp(18px, 3vw, 28px);
+  line-height: 1.6;
+  text-shadow: 4px 4px 0px #000000;
+  letter-spacing: 1px;
+}
+
+.popup-form {
+  width: min(100%, 470px);
+  margin: 34px auto 0;
+}
+
+.popup-campo {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  text-align: left;
+}
+
+.popup-campo label {
+  color: #d4534f;
+  font-size: 14px;
+  line-height: 1.5;
+  text-shadow: 2px 2px 0px #000000;
+}
+
+.popup-input {
+  width: 100%;
+  min-height: 58px;
+  padding: 14px 16px;
+  background-color: #110d0d;
+  color: #e8d4b0;
+  border: 5px solid #000000;
+  outline: 3px solid #5d3425;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.popup-input::placeholder {
+  color: #927f6c;
+}
+
+.popup-input:focus {
+  outline-color: #b52b2b;
+}
+
+.popup-submit {
+  width: 100%;
+  margin-top: 30px;
+  background-color: #b52b2b;
+}
+
+.popup-submit:hover {
+  background-color: #d04435;
+}
+
+.popup-acciones {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  width: min(100%, 500px);
+  margin: 34px auto 0;
+}
+
+.popup-acciones form {
+  min-width: 0;
+}
+
+.popup-choice {
+  width: 100%;
+}
+
+.popup-choice-yes {
+  background-color: #76502b;
+}
+
+.popup-choice-yes:hover {
+  background-color: #956536;
+}
+
+.popup-choice-no {
+  background-color: #49305a;
+}
+
+.popup-choice-no:hover {
+  background-color: #624176;
+}
+
+@media (max-width: 600px) {
+  .index-content {
+    width: min(88%, 520px);
+    padding: 20px 0;
+  }
+
+  .index-content form {
+    width: 100%;
+  }
+
+  .index-content .menu-boton-principal {
+    min-height: 76px;
+    font-size: 17px;
+  }
+
+  .index-content .menu-boton {
+    min-height: 58px;
+    font-size: 13px;
+    padding: 14px 12px;
+  }
+
+  .integrantes-page {
+    padding: 24px 12px;
+  }
+
+  .integrantes-panel {
+    padding: 28px 16px 32px;
+    border-width: 6px;
+  }
+
+  .integrantes-subtitulo {
+    font-size: 11px;
+    margin-bottom: 24px;
+  }
+
+  .integrantes-lista {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .integrante-card {
+    min-height: 140px;
+  }
+
+  .popup-page {
+    padding: 24px 12px;
+  }
+
+  .popup-panel {
+    padding: 30px 18px 34px;
+    border-width: 6px;
+  }
+
+  .popup-titulo {
+    font-size: 16px;
+  }
+
+  .popup-campo label {
+    font-size: 11px;
+  }
+
+  .popup-input {
+    font-size: 11px;
+  }
+
+  .popup-acciones {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
 }
 
 /*
@@ -434,6 +875,8 @@ La historia gira alrededor de una sala de escape relacionada con el rock naciona
 .historia-wrapper {
   width: 100%;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   padding: 30px 20px 60px;
 }
@@ -453,6 +896,17 @@ La historia gira alrededor de una sala de escape relacionada con el rock naciona
 .historia-caja .dialogo-texto {
   font-size: 20px;
   line-height: 1.8;
+}
+
+.historia-volver {
+  width: min(100%, 420px);
+  margin-top: 30px;
+  text-decoration: none;
+  background-color: #76502b;
+}
+
+.historia-volver:hover {
+  background-color: #956536;
 }
 
 @media (max-width: 900px) {

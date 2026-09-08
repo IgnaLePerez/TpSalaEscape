@@ -9,7 +9,6 @@ const dialogos = [
     "La próxima prueba va a ser un poco más complicada.",
     "¿Seguís queriendo escapar?",
     "Entonces demostrame cuánto sabés.",
-    "[COMIENZA EL DESAFÍO 2]"
 ];
 
 let indiceDialogo = 0;

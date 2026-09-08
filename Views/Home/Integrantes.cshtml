@@ -1,0 +1,32 @@
+@{
+	ViewData["Title"] = "Integrantes";
+}
+
+<main class="popup-page">
+	<section class="integrantes-panel" aria-labelledby="integrantes-titulo">
+		<h1 id="integrantes-titulo" class="integrantes-titulo">Creadores del juego</h1>
+		<p class="integrantes-subtitulo">Sala de Escape - Curso 4IB</p>
+
+		<div class="integrantes-lista">
+			<article class="integrante-card">
+				<span class="integrante-numero">01</span>
+				<h2>Ignacio Pérez</h2>
+				<p>Curso 4IB</p>
+			</article>
+
+			<article class="integrante-card">
+				<span class="integrante-numero">02</span>
+				<h2>Máximo Aguilera</h2>
+				<p>Curso 4IB</p>
+			</article>
+
+			<article class="integrante-card">
+				<span class="integrante-numero">03</span>
+				<h2>Francisco Tortosa</h2>
+				<p>Curso 4IB</p>
+			</article>
+		</div>
+
+		<a class="boton-retro integrantes-volver" href="@Url.Action("Index", "Home")">Volver al menú</a>
+	</section>
+</main>

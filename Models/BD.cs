@@ -70,7 +70,7 @@ namespace tpSalaDeEscape.Models
 
         public static Partida ObtenerPartidaEnCurso(string nombre)
         {
-            string query = "SELECT id, estado, fechaHoraInicio, idSala, idJugador FROM Partidas WHERE estado = 'En curso' AND idJugador = (SELECT id FROM Jugadores WHERE nombre = @Nombre)";
+            string query = "SELECT id, estado, idSala, idJugador FROM Partidas WHERE estado = 'En curso' AND idJugador = (SELECT id FROM Jugadores WHERE nombre = @Nombre)";
             using (SqlConnection connection = new SqlConnection(_connectionString))
             {
                 return connection.QueryFirstOrDefault<Partida>(query, new { Nombre = nombre });

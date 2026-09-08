@@ -2,13 +2,17 @@
     ViewData["Title"] = "Ingresar Nombre";
 }
 
-<h1>Ingresa tu nombre</h1>
+<main class="popup-page">
+    <section class="popup-panel popup-panel-nombre" aria-labelledby="nombre-titulo">
+        <h1 id="nombre-titulo" class="popup-titulo">Ingresa tu nombre</h1>
 
-<form method="post" action="@Url.Action("IngresarNombrePost", "Home")">
-    <div>
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre aquí" required>
-    </div>
-    
-    <button type="submit">Jugar</button>
-</form>
+        <form class="popup-form" method="post" action="@Url.Action("IngresarNombrePost", "Home")">
+            <div class="popup-campo">
+                <label for="nombre">Nombre:</label>
+                <input class="popup-input" type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre aquí" required>
+            </div>
+
+            <button class="boton-retro popup-submit" type="submit">Jugar</button>
+        </form>
+    </section>
+</main>
