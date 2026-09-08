@@ -32,12 +32,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEaWFsb2dvMi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/TpSalaEscape/Views/Home/Historia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIaXN0b3JpYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/TpSalaEscape/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/TpSalaEscape/Views/Home/IngresarNombre.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmdyZXNhck5vbWJyZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TpSalaEscape/Views/Home/Integrantes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbnRlZ3JhbnRlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/TpSalaEscape/Views/Home/Privacy.cshtml]
