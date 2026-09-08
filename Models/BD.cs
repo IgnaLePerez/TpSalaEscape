@@ -1,5 +1,5 @@
 // clase BD.cs sin atributos. Solo con métodos estaticos vacíos (AvanzarSala, CrearJugador, CrearPartida, ExistePartidaEnCurso, ObtenerIdNuevaPartida, ReescribirPartida)
-using System.Data.SqlClient;
+using Microsoft.Data.SqlClient;
 using Dapper;
 
 
@@ -7,27 +7,27 @@ namespace tpSalaDeEscape.Models
 {
     public static class BD
     {
-        private string _connectionString = @"Server=localhost; DataBase=tpSessions;Integrated Security=True;TrustServerCertificate=True;";
+        private static string _connectionString = @"Server=localhost; DataBase=SalaDeEscape;Integrated Security=True;TrustServerCertificate=True;";
 
-        public void AvanzarSala(string idPartida, string idSala)
+        public static void AvanzarSala(string idPartida, string idSala)
         {
-            string query = "UPDATE Usuarios SET idSala = @IdSala WHERE idPartida = @IdPartida";
+            string query = "UPDATE Partidas SET idSala = @IdSala WHERE id = @IdPartida";
             using (SqlConnection connection = new SqlConnection(_connectionString))
             {
                 connection.Execute(query, new { IdSala = idSala, IdPartida = idPartida });
             }
         }
 
-        public void CrearJugador(string nombre)
+        public static void CrearJugador(string nombre)
         {
-            string query = "INSERT INTO Jugadores (nombre) VALUES (@Nombre)"
+            string query = "INSERT INTO Jugadores (nombre) VALUES (@Nombre)";
             using (SqlConnection connection = new SqlConnection(_connectionString))
             {
                 connection.Execute(query, new { Nombre = nombre });
             }
         }
 
-        public void CrearPartida(string estado, string idSala, string nombreJugador)
+        public static void CrearPartida(string estado, string idSala, string nombreJugador)
         {
             string query = "INSERT INTO Partidas (estado, idSala, idJugador) VALUES (@estado, @idSala, (SELECT id FROM Jugadores WHERE nombre = @nombreJugador))";
             using (SqlConnection connection = new SqlConnection(_connectionString))
@@ -36,7 +36,7 @@ namespace tpSalaDeEscape.Models
             }
         }
 
-        public bool ExistePartidaEnCurso(string nombre)
+        public static bool ExistePartidaEnCurso(string nombre)
         {
             int count;
             string query =  "SELECT COUNT(*) FROM Partidas p INNER JOIN Jugadores j ON p.idJugador = j.id WHERE j.nombre = @Nombre AND p.estado = 'En curso'";
@@ -50,7 +50,7 @@ namespace tpSalaDeEscape.Models
             return true;
         }
 
-        public int ObtenerIdNuevaPartida()
+        public static int ObtenerIdNuevaPartida()
         {
             string query = "SELECT id FROM Partidas ORDER BY id DESC";
             using (SqlConnection connection = new SqlConnection(_connectionString))
@@ -59,12 +59,21 @@ namespace tpSalaDeEscape.Models
             }
         }
 
-        public void ReescribirPartida(string nombre)
+        public static void ReescribirPartida(string nombre)
         {
             string query = "UPDATE Partidas SET estado = 'En curso', idSala = 0 WHERE idJugador = (SELECT id FROM Jugadores WHERE nombre = @Nombre)";
             using (SqlConnection connection = new SqlConnection(_connectionString))
             {
                 connection.Execute(query, new { Nombre = nombre });
+            }
+        }
+
+        public static Partida ObtenerPartidaEnCurso(string nombre)
+        {
+            string query = "SELECT id, estado, fechaHoraInicio, idSala, idJugador FROM Partidas WHERE estado = 'En curso' AND idJugador = (SELECT id FROM Jugadores WHERE nombre = @Nombre)";
+            using (SqlConnection connection = new SqlConnection(_connectionString))
+            {
+                return connection.QueryFirstOrDefault<Partida>(query, new { Nombre = nombre });
             }
         }
     }

@@ -35,7 +35,7 @@ public class HomeController : Controller
     
     public IActionResult IngresarNombrePost(string nombre)
     {
-        httpContext.Session.SetString("nombreJugador", nombre);
+        HttpContext.Session.SetString("nombreJugador", nombre);
         if(BD.ExistePartidaEnCurso(nombre))
         {
             return View("DeseaContinuar");
@@ -43,11 +43,20 @@ public class HomeController : Controller
         return RedirectToAction("CrearPartida");
     }
 
+    public IActionResult ContinuarPartida()
+    {
+        string nombreJugador = HttpContext.Session.GetString("nombreJugador");
+        Partida partida = BD.ObtenerPartidaEnCurso(nombreJugador);
+        HttpContext.Session.SetString("idPartida", partida.id.ToString());
+        HttpContext.Session.SetString("idSala", partida.idSala.ToString());
+        return View("Sala" + HttpContext.Session.GetString("idSala"));
+    }
+
     public IActionResult ReescribirPartida()
     {
-        BD.ReescribirPartida("En curso", "0", httpContext.Session.GetString("nombreJugador"));
-        httpContext.Session.SetString("idPartida", BD.ObtenerIdNuevaPartida().ToString());
-        httpContext.Session.SetString("idSala", "0");
+        BD.ReescribirPartida(HttpContext.Session.GetString("nombreJugador"));
+        HttpContext.Session.SetString("idPartida", BD.ObtenerIdNuevaPartida().ToString());
+        HttpContext.Session.SetString("idSala", "0");
         return RedirectToAction("AvanzarSala");
     }
 
@@ -58,19 +67,19 @@ public class HomeController : Controller
 
     public IActionResult CrearPartida()
     {
-        BD.CrearJugador(httpContext.Session.GetString("nombreJugador"));
-        BD.CrearPartida("En curso", "0", httpContext.Session.GetString("nombreJugador"));
-        httpContext.Session.SetString("idPartida", BD.ObtenerIdNuevaPartida().ToString());
-        httpContext.Session.SetString("idSala", "0");
+        BD.CrearJugador(HttpContext.Session.GetString("nombreJugador"));
+        BD.CrearPartida("En curso", "0", HttpContext.Session.GetString("nombreJugador"));
+        HttpContext.Session.SetString("idPartida", BD.ObtenerIdNuevaPartida().ToString());
+        HttpContext.Session.SetString("idSala", "0");
         return RedirectToAction("Dialogo");
     }
 
     public IActionResult AvanzarSala(){
         
-        int idSala = int.Parse(httpContext.Session.GetString("idSala"));
-        httpContext.Session.SetString("idSala", (idSala + 1).ToString());
-        BD.AvanzarSala(httpContext.Session.GetString("idPartida"));
-        return View("Sala" + httpContext.Session.GetString("idSala"));
+        int idSala = int.Parse(HttpContext.Session.GetString("idSala"));
+        HttpContext.Session.SetString("idSala", (idSala + 1).ToString());
+        BD.AvanzarSala(HttpContext.Session.GetString("idPartida"), HttpContext.Session.GetString("idSala"));
+        return View("Sala" + HttpContext.Session.GetString("idSala"));
     }
 
     public IActionResult PartidaGanada()

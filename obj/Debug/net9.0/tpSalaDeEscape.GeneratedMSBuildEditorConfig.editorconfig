@@ -20,6 +20,10 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
+[C:/TpSalaEscape/Views/Home/DeseaContinuar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXNlYUNvbnRpbnVhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/TpSalaEscape/Views/Home/Dialogo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEaWFsb2dvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -28,12 +32,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/TpSalaEscape/Views/Home/IngresarNombre.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmdyZXNhck5vbWJyZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/TpSalaEscape/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/TpSalaEscape/Views/Home/Sala1.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTYWxhMS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TpSalaEscape/Views/Home/Sala2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTYWxhMi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/TpSalaEscape/Views/Shared/Error.cshtml]

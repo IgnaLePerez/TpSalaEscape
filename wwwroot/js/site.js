@@ -23,16 +23,16 @@ const dialogos = [
 
 const preguntas = [
   {
-    texto: "¿Cuál de estas bandas es considerada una de las más importantes del rock nacional argentino?",
+    pregunta: "¿Cuál de estas bandas es considerada una de las más importantes del rock nacional argentino?",
     opciones: [
-      { texto: "Soda Stereo", correcta: true },
       { texto: "Don Cornelio y la zona", correcta: false },
       { texto: "Los Ramones", correcta: false },
+      { texto: "Soda Stereo", correcta: true },
       { texto: "Pier", correcta: false }
     ]
   },
   {
-    texto: "¿Quién fue el cantante y líder de Sumo?",
+    pregunta: "¿Quién fue el cantante y líder de Sumo?",
     opciones: [
       { texto: "Fito Páez", correcta: false },
       { texto: "Gustavo Cerati", correcta: false },
@@ -41,7 +41,7 @@ const preguntas = [
     ]
   },
   {
-    texto: "¿Cuál de estas NO fue una banda de Charly García?",
+    pregunta: "¿Cuál de estas NO fue una banda de Charly García?",
     opciones: [
       { texto: "Seru Giran", correcta: false },
       { texto: "Los Gatos", correcta: true },
@@ -64,12 +64,10 @@ function AvanzarDialogo() {
 }   
 
 function AvanzarPreguntas() {
-
     indicePregunta++;
-
     if (indicePregunta < preguntas.length) {
 
-        txtPregunta.innerHTML = preguntas[indicePregunta].texto;
+        txtPregunta.innerHTML = preguntas[indicePregunta].pregunta;
 
         document.getElementById("btnOpcion1").innerHTML =
             preguntas[indicePregunta].opciones[0].texto;
@@ -84,7 +82,9 @@ function AvanzarPreguntas() {
             preguntas[indicePregunta].opciones[3].texto;
 
     }
-
+    else {
+        window.location.href = '/home/AvanzarSala';
+    }
 }
 
 function VerificarRespuesta(opcion) {

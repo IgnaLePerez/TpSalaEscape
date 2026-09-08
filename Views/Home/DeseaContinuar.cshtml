@@ -1,0 +1,13 @@
+@{
+    ViewData["Title"] = "¿Desea Continuar?";
+}
+
+<h1>¿Desea continuar con su partida anterior?</h1>
+
+<form method="post" action="@Url.Action("ContinuarPartida", "Home")">
+    <button type="submit">Sí</button>
+</form>
+
+<form method="post" action="@Url.Action("ReescribirPartida", "Home")">
+    <button type="submit">No</button>
+</form>
