@@ -335,6 +335,34 @@ html, body {
   }
 }
 
+.index-page {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('/imagenes/Sótano.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.index-content {
+  width: min(60%, 720px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+}
+
+.index-content img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
 /*
 Bueno ahora necesito estilizar parte del trabajo. Solamente el Dialogo y la sala 1. Tengo imagenes que deberas usar. Ya estan subidas al archivo y cada una tiene su propia función. Quiero que como fondo de la Sala1 sea el sotano y que aparezca la imagen de MarioDialogo1. Por ahora hacé eso. Si queres modifica los estilos de los texto. Todo lo que hagas debe respetar esta serie de requisitos:
 Quiero que toda la interfaz y las imágenes de este videojuego mantengan una estética retro de videojuego de 8-bit/16-bit, inspirada en los juegos clásicos de aventura y las interfaces de videojuegos de los años 90.

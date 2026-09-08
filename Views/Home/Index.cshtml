@@ -2,19 +2,20 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<main class="index-page">
+    <div class="index-content">
+        <img src="~/imagenes/Logo.png" alt="Logo" />
 
-<form method="post" action="@Url.Action("IngresarNombre", "Home")">
-    <input type="submit" value="Iniciar Partida"/>
-</form>
+        <form method="post" action="@Url.Action("IngresarNombre", "Home")">
+            <input type="submit" value="Iniciar Partida"/>
+        </form>
 
-<form method="post" action="@Url.Action("Historia", "Home")">
-    <input type="submit" value="Historia"/>
-</form>
+        <form method="post" action="@Url.Action("Historia", "Home")">
+            <input type="submit" value="Historia"/>
+        </form>
 
-<form method="post" action="@Url.Action("Integrantes", "Home")">
-    <input type="submit" value="Integrantes"/>
-</form>
+        <form method="post" action="@Url.Action("Integrantes", "Home")">
+            <input type="submit" value="Integrantes"/>
+        </form>
+    </div>
+</main>
