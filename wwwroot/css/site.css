@@ -1,31 +1,388 @@
-html {
-  font-size: 14px;
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* RESET GLOBAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Press Start 2P', cursive;
+  background-color: #0a0a0a;
+  color: #e8d4b0;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+
+/* SALA RETRO - ESTILOS GENERALES */
+.sala-retro {
+  background-color: #0a0a0a;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.sala1 {
+  background-image: url('~/imagenes/Sótano.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.sala-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 30px;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+/* PREGUNTA - ESTILO RETRO */
+.pregunta-retro {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 24px;
+  font-weight: 900;
+  color: #d4534f;
+  text-align: center;
+  text-shadow: 4px 4px 0px #000000, 8px 8px 0px rgba(0, 0, 0, 0.5);
+  letter-spacing: 2px;
+  max-width: 900px;
+  line-height: 1.6;
+  padding: 20px;
+  border: 8px solid #000000;
+  background-color: rgba(30, 20, 15, 0.95);
+  box-shadow: 
+    0px 8px 0px rgba(0, 0, 0, 0.8),
+    inset 2px 2px 0px rgba(120, 60, 40, 0.5),
+    inset -2px -2px 0px rgba(0, 0, 0, 0.8);
+}
+
+/* CONTENEDOR DE OPCIONES */
+.opciones {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  width: 100%;
+  max-width: 900px;
+  padding: 20px;
+}
+
+/* BOTONES DE OPCIONES - RETRO */
+.boton-opcion-retro {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 18px;
+  font-weight: 900;
+  padding: 20px 15px;
+  background-color: #8B0000;
+  color: #e8d4b0;
+  border: 6px solid #000000;
+  cursor: pointer;
+  text-align: center;
+  text-shadow: 2px 2px 0px #000000;
+  letter-spacing: 1px;
+  transition: all 0.1s ease;
+  box-shadow: 
+    0px 6px 0px rgba(0, 0, 0, 0.8),
+    inset 2px 2px 0px rgba(255, 100, 100, 0.3),
+    inset -2px -2px 0px rgba(0, 0, 0, 0.8);
+  position: relative;
+  top: 0;
+  line-height: 1.4;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.boton-opcion-retro:hover {
+  background-color: #a00000;
+  top: 2px;
+  box-shadow: 
+    0px 4px 0px rgba(0, 0, 0, 0.8),
+    inset 2px 2px 0px rgba(255, 100, 100, 0.3),
+    inset -2px -2px 0px rgba(0, 0, 0, 0.8);
+}
+
+.boton-opcion-retro:active {
+  top: 6px;
+  box-shadow: 
+    0px 0px 0px rgba(0, 0, 0, 0.8),
+    inset 2px 2px 0px rgba(0, 0, 0, 0.8),
+    inset -2px -2px 0px rgba(255, 100, 100, 0.3);
+}
+
+.boton-opcion-retro:disabled {
+  background-color: #555555;
+  cursor: not-allowed;
+  color: #999999;
+}
+
+/* CONTENEDOR DE ERRORES */
+.error-container {
+  width: 100%;
+  max-width: 900px;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mensaje-error {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 16px;
+  color: #ff6b6b;
+  text-shadow: 3px 3px 0px #000000;
+  text-align: center;
+  letter-spacing: 1px;
+  padding: 10px;
+  border: 4px solid #ff0000;
+  background-color: rgba(50, 0, 0, 0.9);
+  min-width: 100%;
+  line-height: 1.4;
+}
+
+/* DIALOGO RETRO */
+.dialogo-retro {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #0a0a0a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  gap: 40px;
+}
+
+.dialogo-container {
+  display: flex;
+  align-items: flex-end;
+  gap: 30px;
+  max-width: 1100px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.dialogo-imagen {
+  flex-shrink: 0;
+}
+
+.dialogo-imagen img {
+  width: 300px;
+  height: auto;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  border: 8px solid #000000;
+  box-shadow: 0px 10px 0px rgba(0, 0, 0, 0.8);
+}
+
+.dialogo-caja {
+  flex: 1;
+  min-width: 400px;
+  background-color: rgba(30, 20, 15, 0.98);
+  border: 10px solid #000000;
+  padding: 30px;
+  box-shadow: 
+    0px 10px 0px rgba(0, 0, 0, 0.8),
+    inset 2px 2px 0px rgba(120, 60, 40, 0.5),
+    inset -2px -2px 0px rgba(0, 0, 0, 0.8);
+  position: relative;
+  background-image: 
+    repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.1) 0px, rgba(0, 0, 0, 0.1) 2px, transparent 2px, transparent 4px);
+}
+
+.dialogo-caja::before {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  border: 3px solid #8B4513;
+  pointer-events: none;
+}
+
+.dialogo-texto {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 20px;
+  font-weight: 900;
+  color: #e8d4b0;
+  text-shadow: 3px 3px 0px #000000, 6px 6px 0px rgba(0, 0, 0, 0.5);
+  line-height: 1.8;
+  letter-spacing: 1px;
+  position: relative;
+  z-index: 1;
+  margin: 0;
+}
+
+.dialogo-botones {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 600px;
+}
+
+.dialogo-botones form {
+  flex: 1;
+  min-width: 240px;
+}
+
+/* BOTONES RETRO GENERALES */
+.boton-retro,
+.dialogo-botones input[type="submit"] {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 18px;
+  font-weight: 900;
+  padding: 20px 25px;
+  background-color: #8B0000;
+  color: #e8d4b0;
+  border: 6px solid #000000;
+  cursor: pointer;
+  text-align: center;
+  text-shadow: 2px 2px 0px #000000;
+  letter-spacing: 2px;
+  transition: all 0.1s ease;
+  box-shadow: 
+    0px 6px 0px rgba(0, 0, 0, 0.8),
+    inset 2px 2px 0px rgba(255, 100, 100, 0.3),
+    inset -2px -2px 0px rgba(0, 0, 0, 0.8);
+  position: relative;
+  top: 0;
+  width: 100%;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.boton-retro:hover,
+.dialogo-botones input[type="submit"]:hover {
+  background-color: #a00000;
+  top: 2px;
+  box-shadow: 
+    0px 4px 0px rgba(0, 0, 0, 0.8),
+    inset 2px 2px 0px rgba(255, 100, 100, 0.3),
+    inset -2px -2px 0px rgba(0, 0, 0, 0.8);
+}
+
+.boton-retro:active,
+.dialogo-botones input[type="submit"]:active {
+  top: 6px;
+  box-shadow: 
+    0px 0px 0px rgba(0, 0, 0, 0.8),
+    inset 2px 2px 0px rgba(0, 0, 0, 0.8),
+    inset -2px -2px 0px rgba(255, 100, 100, 0.3);
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .dialogo-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .dialogo-imagen img {
+    width: 200px;
+  }
+
+  .dialogo-caja {
+    min-width: 100%;
+  }
+
+  .pregunta-retro {
+    font-size: 18px;
+  }
+
+  .boton-opcion-retro {
+    font-size: 14px;
+    padding: 15px 10px;
+  }
+
+  .opciones {
+    grid-template-columns: 1fr;
   }
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+@media (max-width: 600px) {
+  .pregunta-retro {
+    font-size: 14px;
+    border: 4px solid #000000;
+  }
+
+  .boton-opcion-retro {
+    font-size: 12px;
+    padding: 12px 8px;
+    min-height: 70px;
+  }
+
+  .dialogo-texto {
+    font-size: 14px;
+  }
+
+  .boton-retro,
+  .dialogo-botones input[type="submit"] {
+    font-size: 14px;
+    padding: 15px 15px;
+    min-height: 50px;
+  }
 }
 
-html {
-  position: relative;
-  min-height: 100%;
-}
+/*
+Bueno ahora necesito estilizar parte del trabajo. Solamente el Dialogo y la sala 1. Tengo imagenes que deberas usar. Ya estan subidas al archivo y cada una tiene su propia función. Quiero que como fondo de la Sala1 sea el sotano y que aparezca la imagen de MarioDialogo1. Por ahora hacé eso. Si queres modifica los estilos de los texto. Todo lo que hagas debe respetar esta serie de requisitos:
+Quiero que toda la interfaz y las imágenes de este videojuego mantengan una estética retro de videojuego de 8-bit/16-bit, inspirada en los juegos clásicos de aventura y las interfaces de videojuegos de los años 90.
 
-body {
-  margin-bottom: 60px;
-}
+ESTILO VISUAL:
+- Pixel art detallado y definido.
+- Resolución visual baja simulada, con píxeles grandes y bordes escalonados.
+- Iluminación dramática y alto contraste.
+- Colores predominantemente oscuros: negro, gris, marrón, rojo oscuro y pequeños detalles en violeta.
+- Aspecto viejo, sucio, misterioso y ligeramente terrorífico.
+- Sombras fuertes y texturas pixeladas.
+- Nada de estilo moderno, minimalista, 3D realista o vectorial.
+- Todo debe parecer parte del mismo videojuego.
 
-.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
-  color: var(--bs-secondary-color);
-  text-align: end;
-}
+TIPOGRAFÍA:
+- Usar una fuente gruesa, irregular y completamente pixelada.
+- Letras grandes, pesadas y con apariencia de videojuego retro.
+- Inspiración visual en los títulos de The Binding of Isaac y otros juegos retro, pero sin copiar exactamente su tipografía.
+- Bordes negros gruesos alrededor de las letras.
+- Utilizar sombras o extrusión pixelada para dar profundidad.
+- Los títulos principales pueden utilizar colores crema, gris, rojo oscuro o rojo intenso dependiendo de la pantalla.
+- El texto debe ser muy legible incluso a baja resolución.
 
-.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
-  text-align: start;
-}
+BOTONES:
+- Botones rectangulares con estética pixel art.
+- Bordes negros gruesos y esquinas ligeramente escalonadas.
+- Apariencia de botón físico o de videojuego antiguo.
+- Fondo rojo oscuro o bordó.
+- Sombra pixelada debajo o alrededor.
+- Texto en color crema/blanco roto.
+- La palabra del botón debe estar centrada y escrita con una fuente pixelada gruesa.
+- Cuando sea posible, agregar un pequeño efecto de relieve o iluminación para que parezca interactivo.
+
+CAJAS DE DIÁLOGO:
+- Rectángulos grandes de color negro, marrón muy oscuro o gris oscuro.
+- Bordes gruesos pixelados.
+- Interior ligeramente texturizado, como una pantalla o panel antiguo.
+- Texto en color crema/blanco roto.
+- Fuente pixelada, grande y muy legible.
+- La caja debe tener suficiente espacio para varias líneas de texto.
+- Puede tener pequeños detalles decorativos en las esquinas o bordes, siempre manteniendo el estilo retro.
+- Debe parecer una interfaz de videojuego y no una caja HTML moderna.
+
+INTERFAZ:
+- Todos los elementos deben parecer pertenecientes al mismo juego.
+- Mantener coherencia entre fondos, personajes, títulos, botones y cuadros de diálogo.
+- Evitar gradientes modernos, transparencias excesivas, sombras suaves o elementos demasiado limpios.
+- Priorizar píxeles visibles, bordes duros, iluminación dramática y texturas retro.
+
+TEMÁTICA:
+La historia gira alrededor de una sala de escape relacionada con el rock nacional argentino. El protagonista fue secuestrado por Mario Pergolini y debe superar diferentes pruebas sobre rock para conseguir escapar. */

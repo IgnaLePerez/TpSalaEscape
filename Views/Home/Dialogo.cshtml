@@ -1,8 +1,16 @@
-<img src="images/pergoliniDialogo1.jpg" alt="Pergolini"/>
-<div>
-    <p id="txt">Mirá quién se despertó.</p>
+<div class="dialogo-retro">
+    <div class="dialogo-container">
+        <div class="dialogo-imagen">
+            <img src="~/imagenes/MarioDialogo1.png" alt="Mario Pergolini"/>
+        </div>
+        <div class="dialogo-caja">
+            <p id="txt" class="dialogo-texto">Mirá quién se despertó.</p>
+        </div>
+    </div>
+    <div class="dialogo-botones">
+        <button id="btnContinuar" class="boton-retro" onclick="AvanzarDialogo()">Continuar</button>
+        <form method="post" action="@Url.Action("AvanzarSala", "Home")">
+            <input type="submit" class="boton-retro" value="Saltear diálogo"/>
+        </form>
+    </div>
 </div>
-<button id="btnContinuar" onclick="AvanzarDialogo()">Continuar</button>
-<form method="post" action="@Url.Action("AvanzarSala", "Home")">
-    <input type="submit">Saltear diálogo</input>
-</form>

@@ -80,10 +80,12 @@ function AvanzarPreguntas() {
         document.getElementById("btnOpcion4").innerHTML =
             preguntas[indicePregunta].opciones[3].texto;
         
-        document.getElementById("btnOpcion1").style.backgroundColor = "white"; 
-        document.getElementById("btnOpcion2").style.backgroundColor = "white";
-        document.getElementById("btnOpcion3").style.backgroundColor = "white";
-        document.getElementById("btnOpcion4").style.backgroundColor = "white";
+        document.getElementById("btnOpcion1").style.backgroundColor = "#8B0000"; 
+        document.getElementById("btnOpcion2").style.backgroundColor = "#8B0000";
+        document.getElementById("btnOpcion3").style.backgroundColor = "#8B0000";
+        document.getElementById("btnOpcion4").style.backgroundColor = "#8B0000";
+        
+        mensajeError.innerHTML = "";
         return;
     }
     else {

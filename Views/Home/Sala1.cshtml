@@ -1,15 +1,15 @@
-<body>
+<body class="sala-retro sala1">
     <script src="~/js/site.js"></script>
-    <main>
-        <h1 id="txtPregunta">¿Cuál de estas bandas es considerada una de las más importantes del rock nacional argentino?</h1>
+    <main class="sala-container">
+        <h1 id="txtPregunta" class="pregunta-retro">¿Cuál de estas bandas es considerada una de las más importantes del rock nacional argentino?</h1>
         <div class="opciones">
-            <button id="btnOpcion1" onclick="VerificarRespuesta(1)">Don cornelio y la zona</button>
-            <button id="btnOpcion2" onclick="VerificarRespuesta(2)">Los Ramones</button>
-            <button id="btnOpcion3" onclick="VerificarRespuesta(3)">Soda Stereo</button>
-            <button id="btnOpcion4" onclick="VerificarRespuesta(4)">Pier</button>
+            <button id="btnOpcion1" class="boton-opcion-retro" onclick="VerificarRespuesta(1)">Don cornelio y la zona</button>
+            <button id="btnOpcion2" class="boton-opcion-retro" onclick="VerificarRespuesta(2)">Los Ramones</button>
+            <button id="btnOpcion3" class="boton-opcion-retro" onclick="VerificarRespuesta(3)">Soda Stereo</button>
+            <button id="btnOpcion4" class="boton-opcion-retro" onclick="VerificarRespuesta(4)">Pier</button>
         </div>
-        <div>
-            <p id="mensajeError"></p>
+        <div class="error-container">
+            <p id="mensajeError" class="mensaje-error"></p>
         </div>
     </main>    
 </body>
