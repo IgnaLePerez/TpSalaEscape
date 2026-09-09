@@ -66,11 +66,8 @@ C:\TpSalaEscape\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
 C:\TpSalaEscape\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\TpSalaEscape\obj\Debug\net9.0\scopedcss\bundle\tpSalaDeEscape.styles.css
 C:\TpSalaEscape\obj\Debug\net9.0\scopedcss\projectbundle\tpSalaDeEscape.bundle.scp.css
-C:\TpSalaEscape\obj\Debug\net9.0\compressed\9fv11mkv02-khfqi19smd.gz
 C:\TpSalaEscape\obj\Debug\net9.0\compressed\vqovx1gocv-61n19gt1b8.gz
-C:\TpSalaEscape\obj\Debug\net9.0\compressed\7isyeyphld-hlt1amuj1s.gz
 C:\TpSalaEscape\obj\Debug\net9.0\compressed\3pcz8na942-k8cb5anxwh.gz
-C:\TpSalaEscape\obj\Debug\net9.0\compressed\rmzy0r6z34-oplqg4er08.gz
 C:\TpSalaEscape\obj\Debug\net9.0\compressed\fx5mkt2h98-t1cqhe9u97.gz
 C:\TpSalaEscape\obj\Debug\net9.0\compressed\8pbale9vp8-c2jlpeoesf.gz
 C:\TpSalaEscape\obj\Debug\net9.0\compressed\qgw7386hab-sejl45xvog.gz
@@ -287,3 +284,7 @@ C:\Users\ignac\OneDrive\Documentos\2026\programacion\TpSalaEscape\obj\Debug\net9
 C:\Users\ignac\OneDrive\Documentos\2026\programacion\TpSalaEscape\obj\Debug\net9.0\tpSalaDeEscape.genruntimeconfig.cache
 C:\Users\ignac\OneDrive\Documentos\2026\programacion\TpSalaEscape\obj\Debug\net9.0\ref\tpSalaDeEscape.dll
 C:\Users\ignac\OneDrive\Documentos\2026\programacion\TpSalaEscape\obj\Debug\net9.0\compressed\9fv11mkv02-wo2ll1niqw.gz
+C:\TpSalaEscape\obj\Debug\net9.0\compressed\9fv11mkv02-wo2ll1niqw.gz
+C:\TpSalaEscape\obj\Debug\net9.0\compressed\7isyeyphld-ynspxzl7aw.gz
+C:\TpSalaEscape\obj\Debug\net9.0\compressed\ihbkbzknaa-vgjydh5hxn.gz
+C:\TpSalaEscape\obj\Debug\net9.0\compressed\rmzy0r6z34-ctxrn08oy7.gz

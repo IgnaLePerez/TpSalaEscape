@@ -9,73 +9,77 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = tpSalaDeEscape
 build_property.RootNamespace = tpSalaDeEscape
-build_property.ProjectDir = C:\Users\ignac\OneDrive\Documentos\2026\programacion\TpSalaEscape\
+build_property.ProjectDir = C:\TpSalaEscape\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\ignac\OneDrive\Documentos\2026\programacion\TpSalaEscape
+build_property.MSBuildProjectDirectory = C:\TpSalaEscape
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/ignac/OneDrive/Documentos/2026/programacion/TpSalaEscape/Views/Home/DeseaContinuar.cshtml]
+[C:/TpSalaEscape/Views/Home/DeseaContinuar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXNlYUNvbnRpbnVhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ignac/OneDrive/Documentos/2026/programacion/TpSalaEscape/Views/Home/Dialogo.cshtml]
+[C:/TpSalaEscape/Views/Home/Dialogo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEaWFsb2dvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ignac/OneDrive/Documentos/2026/programacion/TpSalaEscape/Views/Home/Dialogo2.cshtml]
+[C:/TpSalaEscape/Views/Home/Dialogo2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEaWFsb2dvMi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ignac/OneDrive/Documentos/2026/programacion/TpSalaEscape/Views/Home/Historia.cshtml]
+[C:/TpSalaEscape/Views/Home/Dialogo3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEaWFsb2dvMy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TpSalaEscape/Views/Home/Historia.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIaXN0b3JpYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ignac/OneDrive/Documentos/2026/programacion/TpSalaEscape/Views/Home/Index.cshtml]
+[C:/TpSalaEscape/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ignac/OneDrive/Documentos/2026/programacion/TpSalaEscape/Views/Home/IngresarNombre.cshtml]
+[C:/TpSalaEscape/Views/Home/IngresarNombre.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmdyZXNhck5vbWJyZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ignac/OneDrive/Documentos/2026/programacion/TpSalaEscape/Views/Home/Integrantes.cshtml]
+[C:/TpSalaEscape/Views/Home/Integrantes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbnRlZ3JhbnRlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ignac/OneDrive/Documentos/2026/programacion/TpSalaEscape/Views/Home/Privacy.cshtml]
+[C:/TpSalaEscape/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ignac/OneDrive/Documentos/2026/programacion/TpSalaEscape/Views/Home/Sala1.cshtml]
+[C:/TpSalaEscape/Views/Home/Sala1.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTYWxhMS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ignac/OneDrive/Documentos/2026/programacion/TpSalaEscape/Views/Home/Sala2.cshtml]
+[C:/TpSalaEscape/Views/Home/Sala2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTYWxhMi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ignac/OneDrive/Documentos/2026/programacion/TpSalaEscape/Views/Shared/Error.cshtml]
+[C:/TpSalaEscape/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ignac/OneDrive/Documentos/2026/programacion/TpSalaEscape/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/TpSalaEscape/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ignac/OneDrive/Documentos/2026/programacion/TpSalaEscape/Views/_ViewImports.cshtml]
+[C:/TpSalaEscape/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ignac/OneDrive/Documentos/2026/programacion/TpSalaEscape/Views/_ViewStart.cshtml]
+[C:/TpSalaEscape/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ignac/OneDrive/Documentos/2026/programacion/TpSalaEscape/Views/Shared/_Layout.cshtml]
+[C:/TpSalaEscape/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-vz01odksuh

@@ -75,6 +75,11 @@ public class HomeController : Controller
         return View();
     }
 
+    public IActionResult Dialogo3()
+    {
+        return View();
+    }
+
     public IActionResult CrearPartida()
     {
         BD.CrearJugador(HttpContext.Session.GetString("nombreJugador"));
