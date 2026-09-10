@@ -56,7 +56,7 @@ function AvanzarPreguntas() {
         return;
     }
     else {
-        window.location.href = '/home/Dialogo3';
+        window.location.href = '/home/AvanzarSala';
     }
 }
 
