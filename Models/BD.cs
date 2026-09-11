@@ -7,7 +7,7 @@ namespace tpSalaDeEscape.Models
 {
     public static class BD
     {
-        private static string _connectionString = @"Server=localhost;DataBase=SalaDeEscape;Integrated Security=True;TrustServerCertificate=True;";
+        private static string _connectionString = @"Server=./SQLEXPRESS;DataBase=SalaDeEscape;Integrated Security=True;TrustServerCertificate=True;";
 
         public static void AvanzarSala(string idPartida, int idSala)
         {
