@@ -80,9 +80,9 @@ public class HomeController : Controller
 
     public IActionResult AvanzarSala(){
         
-        int idSala = int.Parse(HttpContext.Session.GetString("idSala"));
-        HttpContext.Session.SetString("idSala", (idSala + 1).ToString());
-        BD.AvanzarSala(HttpContext.Session.GetString("idPartida"), HttpContext.Session.GetString("idSala"));
+        string idSala = (int.Parse(HttpContext.Session.GetString("idSala")) + 1).ToString();
+        HttpContext.Session.SetString("idSala", idSala);
+        BD.AvanzarSala(HttpContext.Session.GetString("idPartida"), int.Parse(idSala));
         return View("Dialogo" + HttpContext.Session.GetString("idSala"));
     }
 

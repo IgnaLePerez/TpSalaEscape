@@ -7,14 +7,14 @@ namespace tpSalaDeEscape.Models
 {
     public static class BD
     {
-        private static string _connectionString = @"Server=localhost; DataBase=SalaDeEscape;Integrated Security=True;TrustServerCertificate=True;";
+        private static string _connectionString = @"Server=localhost;DataBase=SalaDeEscape;Integrated Security=True;TrustServerCertificate=True;";
 
-        public static void AvanzarSala(string idPartida, string idSala)
+        public static void AvanzarSala(string idPartida, int idSala)
         {
             string query = "UPDATE Partidas SET idSala = @IdSala WHERE id = @IdPartida";
             using (SqlConnection connection = new SqlConnection(_connectionString))
             {
-                connection.Execute(query, new { IdSala = idSala, IdPartida = idPartida });
+                connection.Execute(query, new {IdSala = idSala, IdPartida = idPartida});
             }
         }
 

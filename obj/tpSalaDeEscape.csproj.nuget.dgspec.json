@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\TpSalaEscape\\tpSalaDeEscape.csproj": {}
+    "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\tpSalaDeEscape.csproj": {}
   },
   "projects": {
-    "C:\\TpSalaEscape\\tpSalaDeEscape.csproj": {
+    "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\tpSalaDeEscape.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\TpSalaEscape\\tpSalaDeEscape.csproj",
+        "projectUniqueName": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\tpSalaDeEscape.csproj",
         "projectName": "tpSalaDeEscape",
-        "projectPath": "C:\\TpSalaEscape\\tpSalaDeEscape.csproj",
-        "packagesPath": "C:\\Users\\49961152\\.nuget\\packages\\",
-        "outputPath": "C:\\TpSalaEscape\\obj\\",
+        "projectPath": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\tpSalaDeEscape.csproj",
+        "packagesPath": "C:\\Users\\ignac\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\49961152\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ignac\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -82,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
