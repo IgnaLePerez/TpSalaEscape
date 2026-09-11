@@ -89,7 +89,7 @@ function AvanzarPreguntas() {
         return;
     }
     else {
-        window.location.href = '/home/Dialogo2';
+        window.location.href = '/home/AvanzarSala';
     }
 }
 

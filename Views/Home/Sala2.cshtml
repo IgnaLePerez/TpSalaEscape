@@ -1,13 +1,15 @@
-<script src="~/js/site2.js"></script>
-<main>
-    <h1 id="txtPregunta">¿De qué canción es la letra? "Estoy muy solo y triste acá en este mundo abandonado..."</h1>
-    <div class="opciones">
-        <button id="btnOpcion1" onclick="VerificarRespuesta(1)">La balsa</button>
-        <button id="btnOpcion2" onclick="VerificarRespuesta(2)">Wadu Wadu</button>
-        <button id="btnOpcion3" onclick="VerificarRespuesta(3)">Motor Psico</button>
-        <button id="btnOpcion4" onclick="VerificarRespuesta(4)">Tarea Fina</button>
-    </div>
-    <div>
-        <p id="mensajeError"></p>
-    </div>
-</main>
+<body class="sala-retro sala1">
+    <main class="sala-container">
+        <h1 id="txtPregunta" class="pregunta-retro">¿De qué canción es la letra? "Estoy muy solo y triste acá en este mundo abandonado..."</h1>
+        <div class="opciones">
+            <button id="btnOpcion1" class="boton-opcion-retro" onclick="VerificarRespuesta(1)">La balsa</button>
+            <button id="btnOpcion2" class="boton-opcion-retro" onclick="VerificarRespuesta(2)">Wadu Wadu</button>
+            <button id="btnOpcion3" class="boton-opcion-retro" onclick="VerificarRespuesta(3)">Motor Psico</button>
+            <button id="btnOpcion4" class="boton-opcion-retro" onclick="VerificarRespuesta(4)">Tarea Fina</button>
+        </div>
+        <div class="error-container">
+            <p id="mensajeError" class="mensaje-error"></p>
+        </div>
+    </main>    
+    <script src="~/js/site2.js"></script>
+</body>

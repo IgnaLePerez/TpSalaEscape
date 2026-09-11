@@ -1,14 +1,16 @@
+<script src="~/js/dialogo3.js"></script>
+
 <main class="dialogo-retro">
     <div class="dialogo-container">
         <div class="dialogo-imagen">
             <img src="~/imagenes/MarioDialogo1.png" alt="Mario Pergolini"/>
         </div>
         <div class="dialogo-caja">
-            <p id="txt" class="dialogo-texto">Mirá quién se despertó.</p>
+            <p id="txt" class="dialogo-texto">Bueno... parece que también sabés reconocer una buena canción.</p>
         </div>
         <div class="dialogo-botones">
             <button id="btnContinuar" class="boton-retro" onclick="AvanzarDialogo()">Continuar</button>
-            <form method="post" action="@Url.Action("AvanzarSala", "Home")">
+            <form method="post" action="@Url.Action("IrASala", "Home")">
                 <input type="submit" class="boton-retro" value="Saltear"/>
             </form>
         </div>
