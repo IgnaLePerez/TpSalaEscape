@@ -7,15 +7,10 @@ mensajeError = document.getElementById("mensajeError");
 
 
 const dialogos = [
-    // ESCENA 1 — ENTRÁS A LA SALA
     "Estás en mi casa. Y no estás acá por casualidad.",
-    
-    // ESCENA 2 — EL MOTIVO
     "Quiero comprobar cuánto sabés de rock nacional.",
     "Porque decir que te gusta el rock es fácil...",
     "...demostrarlo es otra cosa.",
-    
-    // ESCENA 3 — LA AMENAZA
     "Te voy a hacer unas preguntas.",
     "Nada de buscar respuestas. Nada de trampas.",
     "Empecemos."

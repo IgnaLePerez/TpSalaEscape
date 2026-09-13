@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DOOlEWtwOJfDFrO6SdzQYq1b/yD3ZSAhOuIs3KPWeUg=",
+  "Hash": "bY2RwOcGjL/qV3c6UGVZJ2ACymQQLQecF7mITnJXDOo=",
   "Source": "tpSalaDeEscape",
   "BasePath": "_content/tpSalaDeEscape",
   "Mode": "Default",
@@ -57,6 +57,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\wwwroot\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\obj\\Debug\\net9.0\\compressed\\0f3suazdje-x4b7kikwz3.gz",
+      "SourceId": "tpSalaDeEscape",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/tpSalaDeEscape",
+      "RelativePath": "js/sala4#[.{fingerprint=x4b7kikwz3}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\wwwroot\\js\\sala4.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "hcbjl7fvwj",
+      "Integrity": "z95VLI6GcCXJae/5C5R0YNi8elhJ91PfUnjYNFyniKQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\wwwroot\\js\\sala4.js"
     },
     {
       "Identity": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\obj\\Debug\\net9.0\\compressed\\2179cv5k84-jjsuc0puko.gz",
@@ -143,12 +164,12 @@
       "OriginalItemSpec": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\obj\\Debug\\net9.0\\compressed\\3pcz8na942-ezuycuc0y3.gz",
+      "Identity": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\obj\\Debug\\net9.0\\compressed\\3pcz8na942-b4u1sb8zgv.gz",
       "SourceId": "tpSalaDeEscape",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/tpSalaDeEscape",
-      "RelativePath": "js/site#[.{fingerprint=ezuycuc0y3}]?.js.gz",
+      "RelativePath": "js/site#[.{fingerprint=b4u1sb8zgv}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -157,8 +178,8 @@
       "RelatedAsset": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\wwwroot\\js\\site.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "lu0an1ehtb",
-      "Integrity": "M6IiZQPmW2PB1nb4sYY/abI43wwYkLifiiMIptGMnjA=",
+      "Fingerprint": "iqjtpkrgsy",
+      "Integrity": "KkIptFBgqJ9T5OMkLslrJbUIAi5Bt7zG6QlCHkMBhLY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\wwwroot\\js\\site.js"
@@ -269,12 +290,12 @@
       "OriginalItemSpec": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\obj\\Debug\\net9.0\\compressed\\7isyeyphld-ynspxzl7aw.gz",
+      "Identity": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\obj\\Debug\\net9.0\\compressed\\7isyeyphld-dah9t8tads.gz",
       "SourceId": "tpSalaDeEscape",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/tpSalaDeEscape",
-      "RelativePath": "js/dialogo2#[.{fingerprint=ynspxzl7aw}]?.js.gz",
+      "RelativePath": "js/dialogo2#[.{fingerprint=dah9t8tads}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -283,8 +304,8 @@
       "RelatedAsset": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\wwwroot\\js\\dialogo2.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ioyoj7rjcw",
-      "Integrity": "kqQEL5TukTA1NXKXa0ZdSSyMpujO6nr7GMHk13IobJw=",
+      "Fingerprint": "dvdvs2xbfr",
+      "Integrity": "B/StqAaGz9D4yr/9Kylg3XLM7p0U2JsdZK7E1meVDo8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\wwwroot\\js\\dialogo2.js"
@@ -353,12 +374,12 @@
       "OriginalItemSpec": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\obj\\Debug\\net9.0\\compressed\\9fv11mkv02-cfe54y1fga.gz",
+      "Identity": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\obj\\Debug\\net9.0\\compressed\\9fv11mkv02-983x2ud17f.gz",
       "SourceId": "tpSalaDeEscape",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/tpSalaDeEscape",
-      "RelativePath": "css/site#[.{fingerprint=cfe54y1fga}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=983x2ud17f}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -367,8 +388,8 @@
       "RelatedAsset": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "xdhggq1a46",
-      "Integrity": "BQR0P2osOLMScYakR0aVeKgEoAaDBXFKvdZPXaiD9W8=",
+      "Fingerprint": "u4rqsxzg2r",
+      "Integrity": "IgS/o9wgJkPCn0thIsMxEkU606txHswqD3AIK/I+H2E=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\wwwroot\\css\\site.css"
@@ -708,6 +729,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\obj\\Debug\\net9.0\\compressed\\le9uw83204-gzs2tx68zu.gz",
+      "SourceId": "tpSalaDeEscape",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/tpSalaDeEscape",
+      "RelativePath": "js/dialogo4#[.{fingerprint=gzs2tx68zu}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\wwwroot\\js\\dialogo4.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "h8zz8rezf9",
+      "Integrity": "326BvY4/9NnI+/bIjVAeByIdELqDZghhbULYsGLtc3k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\wwwroot\\js\\dialogo4.js"
     },
     {
       "Identity": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\obj\\Debug\\net9.0\\compressed\\m2iswsixly-q9ht133ko3.gz",
@@ -1480,8 +1522,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "cfe54y1fga",
-      "Integrity": "SPQwVvlsQD1DQrQl35WOlfTs69P5K8JKDP7C66usw3Q=",
+      "Fingerprint": "983x2ud17f",
+      "Integrity": "mRi/IV8gatIOX2QL8KW/jrTCyLQnjr2DRjVzA10E1Ls=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1632,6 +1674,90 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imagenes\\Cursor.png"
+    },
+    {
+      "Identity": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\wwwroot\\imagenes\\CursorSmall.png",
+      "SourceId": "tpSalaDeEscape",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\wwwroot\\",
+      "BasePath": "_content/tpSalaDeEscape",
+      "RelativePath": "imagenes/CursorSmall#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "s6dmrzyvnc",
+      "Integrity": "vMw2p6CwNGTMjkeE8fbEDGO/7Ojr/DRBPtvmvvQ71hI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\CursorSmall.png"
+    },
+    {
+      "Identity": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\wwwroot\\imagenes\\Destornillador.png",
+      "SourceId": "tpSalaDeEscape",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\wwwroot\\",
+      "BasePath": "_content/tpSalaDeEscape",
+      "RelativePath": "imagenes/Destornillador#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "md2xycfoi5",
+      "Integrity": "SowMYz6vjB4NZvZEbfjnKRAB+ttAQ1pjaHixvqsyZY8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\Destornillador.png"
+    },
+    {
+      "Identity": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\wwwroot\\imagenes\\DestornilladorCursor.png",
+      "SourceId": "tpSalaDeEscape",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\wwwroot\\",
+      "BasePath": "_content/tpSalaDeEscape",
+      "RelativePath": "imagenes/DestornilladorCursor#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "knfr7mrv0x",
+      "Integrity": "AHdFfEOAOjZ5HPhadwIWRtz5SbJPJeb/9GaY8ahU4vo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\DestornilladorCursor.png"
+    },
+    {
+      "Identity": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\wwwroot\\imagenes\\hand_cursor_46x64.png",
+      "SourceId": "tpSalaDeEscape",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\wwwroot\\",
+      "BasePath": "_content/tpSalaDeEscape",
+      "RelativePath": "imagenes/hand_cursor_46x64#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "18bxzw6l4q",
+      "Integrity": "7yWhneXot8KtlnWeU+jPCiJfUczob948iM78D0Ni8qk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\hand_cursor_46x64.png"
     },
     {
       "Identity": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\wwwroot\\imagenes\\Home.png",
@@ -1858,8 +1984,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ynspxzl7aw",
-      "Integrity": "Xpru389z4/ERVGkIa3i56D9XfCRRyhzcmRGuWMF+lLI=",
+      "Fingerprint": "dah9t8tads",
+      "Integrity": "O5NMMoNWVHDd9SCHz8S5gqgiEG5J6Pk6SCAnejK6f3A=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\dialogo2.js"
@@ -1886,6 +2012,48 @@
       "OriginalItemSpec": "wwwroot\\js\\dialogo3.js"
     },
     {
+      "Identity": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\wwwroot\\js\\dialogo4.js",
+      "SourceId": "tpSalaDeEscape",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\wwwroot\\",
+      "BasePath": "_content/tpSalaDeEscape",
+      "RelativePath": "js/dialogo4#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gzs2tx68zu",
+      "Integrity": "PMAfjm0BK7Z14LiWhyCSiavuJToIdFD4z+a6OMp2cXI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\dialogo4.js"
+    },
+    {
+      "Identity": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\wwwroot\\js\\sala4.js",
+      "SourceId": "tpSalaDeEscape",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\wwwroot\\",
+      "BasePath": "_content/tpSalaDeEscape",
+      "RelativePath": "js/sala4#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "x4b7kikwz3",
+      "Integrity": "32+mvf6sLhnbWatutJDEjF7lrkmBcPpc6dtUr8wPxIQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\sala4.js"
+    },
+    {
       "Identity": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\wwwroot\\js\\site.js",
       "SourceId": "tpSalaDeEscape",
       "SourceType": "Discovered",
@@ -1900,8 +2068,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ezuycuc0y3",
-      "Integrity": "pqrRkWITuYLgvsQDhv7/8fgR6wNuMRJfIVr0HzyYWy8=",
+      "Fingerprint": "b4u1sb8zgv",
+      "Integrity": "Rck0pjjulZXF3Fi16KVKkiZN1YLVXPil56QkmDjI25w=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
@@ -3190,13 +3358,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.cfe54y1fga.css",
-      "AssetFile": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\obj\\Debug\\net9.0\\compressed\\9fv11mkv02-cfe54y1fga.gz",
+      "Route": "css/site.983x2ud17f.css",
+      "AssetFile": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\obj\\Debug\\net9.0\\compressed\\9fv11mkv02-983x2ud17f.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000200883889"
+          "Quality": "0.000194287935"
         }
       ],
       "ResponseHeaders": [
@@ -3206,15 +3374,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4977"
+          "Value": "5146"
         },
         {
           "Name": "ETag",
-          "Value": "\"BQR0P2osOLMScYakR0aVeKgEoAaDBXFKvdZPXaiD9W8=\""
+          "Value": "\"IgS/o9wgJkPCn0thIsMxEkU606txHswqD3AIK/I+H2E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Sep 2026 01:32:47 GMT"
+          "Value": "Sun, 13 Sep 2026 23:51:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3234,13 +3402,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"SPQwVvlsQD1DQrQl35WOlfTs69P5K8JKDP7C66usw3Q=\""
+          "Value": "W/\"mRi/IV8gatIOX2QL8KW/jrTCyLQnjr2DRjVzA10E1Ls=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "cfe54y1fga"
+          "Value": "983x2ud17f"
         },
         {
           "Name": "label",
@@ -3248,12 +3416,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-SPQwVvlsQD1DQrQl35WOlfTs69P5K8JKDP7C66usw3Q="
+          "Value": "sha256-mRi/IV8gatIOX2QL8KW/jrTCyLQnjr2DRjVzA10E1Ls="
         }
       ]
     },
     {
-      "Route": "css/site.cfe54y1fga.css",
+      "Route": "css/site.983x2ud17f.css",
       "AssetFile": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3263,7 +3431,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "21051"
+          "Value": "21661"
         },
         {
           "Name": "Content-Type",
@@ -3271,11 +3439,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"SPQwVvlsQD1DQrQl35WOlfTs69P5K8JKDP7C66usw3Q=\""
+          "Value": "\"mRi/IV8gatIOX2QL8KW/jrTCyLQnjr2DRjVzA10E1Ls=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Sep 2026 01:32:47 GMT"
+          "Value": "Sun, 13 Sep 2026 23:51:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3285,7 +3453,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "cfe54y1fga"
+          "Value": "983x2ud17f"
         },
         {
           "Name": "label",
@@ -3293,13 +3461,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-SPQwVvlsQD1DQrQl35WOlfTs69P5K8JKDP7C66usw3Q="
+          "Value": "sha256-mRi/IV8gatIOX2QL8KW/jrTCyLQnjr2DRjVzA10E1Ls="
         }
       ]
     },
     {
-      "Route": "css/site.cfe54y1fga.css.gz",
-      "AssetFile": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\obj\\Debug\\net9.0\\compressed\\9fv11mkv02-cfe54y1fga.gz",
+      "Route": "css/site.983x2ud17f.css.gz",
+      "AssetFile": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\obj\\Debug\\net9.0\\compressed\\9fv11mkv02-983x2ud17f.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3308,7 +3476,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4977"
+          "Value": "5146"
         },
         {
           "Name": "Content-Type",
@@ -3316,11 +3484,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"BQR0P2osOLMScYakR0aVeKgEoAaDBXFKvdZPXaiD9W8=\""
+          "Value": "\"IgS/o9wgJkPCn0thIsMxEkU606txHswqD3AIK/I+H2E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Sep 2026 01:32:47 GMT"
+          "Value": "Sun, 13 Sep 2026 23:51:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3338,7 +3506,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "cfe54y1fga"
+          "Value": "983x2ud17f"
         },
         {
           "Name": "label",
@@ -3346,18 +3514,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-BQR0P2osOLMScYakR0aVeKgEoAaDBXFKvdZPXaiD9W8="
+          "Value": "sha256-IgS/o9wgJkPCn0thIsMxEkU606txHswqD3AIK/I+H2E="
         }
       ]
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\obj\\Debug\\net9.0\\compressed\\9fv11mkv02-cfe54y1fga.gz",
+      "AssetFile": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\obj\\Debug\\net9.0\\compressed\\9fv11mkv02-983x2ud17f.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000200883889"
+          "Quality": "0.000194287935"
         }
       ],
       "ResponseHeaders": [
@@ -3367,15 +3535,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4977"
+          "Value": "5146"
         },
         {
           "Name": "ETag",
-          "Value": "\"BQR0P2osOLMScYakR0aVeKgEoAaDBXFKvdZPXaiD9W8=\""
+          "Value": "\"IgS/o9wgJkPCn0thIsMxEkU606txHswqD3AIK/I+H2E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Sep 2026 01:32:47 GMT"
+          "Value": "Sun, 13 Sep 2026 23:51:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3395,13 +3563,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"SPQwVvlsQD1DQrQl35WOlfTs69P5K8JKDP7C66usw3Q=\""
+          "Value": "W/\"mRi/IV8gatIOX2QL8KW/jrTCyLQnjr2DRjVzA10E1Ls=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-SPQwVvlsQD1DQrQl35WOlfTs69P5K8JKDP7C66usw3Q="
+          "Value": "sha256-mRi/IV8gatIOX2QL8KW/jrTCyLQnjr2DRjVzA10E1Ls="
         }
       ]
     },
@@ -3416,7 +3584,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "21051"
+          "Value": "21661"
         },
         {
           "Name": "Content-Type",
@@ -3424,11 +3592,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"SPQwVvlsQD1DQrQl35WOlfTs69P5K8JKDP7C66usw3Q=\""
+          "Value": "\"mRi/IV8gatIOX2QL8KW/jrTCyLQnjr2DRjVzA10E1Ls=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Sep 2026 01:32:47 GMT"
+          "Value": "Sun, 13 Sep 2026 23:51:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3438,13 +3606,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-SPQwVvlsQD1DQrQl35WOlfTs69P5K8JKDP7C66usw3Q="
+          "Value": "sha256-mRi/IV8gatIOX2QL8KW/jrTCyLQnjr2DRjVzA10E1Ls="
         }
       ]
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\obj\\Debug\\net9.0\\compressed\\9fv11mkv02-cfe54y1fga.gz",
+      "AssetFile": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\obj\\Debug\\net9.0\\compressed\\9fv11mkv02-983x2ud17f.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3453,7 +3621,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4977"
+          "Value": "5146"
         },
         {
           "Name": "Content-Type",
@@ -3461,11 +3629,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"BQR0P2osOLMScYakR0aVeKgEoAaDBXFKvdZPXaiD9W8=\""
+          "Value": "\"IgS/o9wgJkPCn0thIsMxEkU606txHswqD3AIK/I+H2E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Sep 2026 01:32:47 GMT"
+          "Value": "Sun, 13 Sep 2026 23:51:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3483,7 +3651,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-BQR0P2osOLMScYakR0aVeKgEoAaDBXFKvdZPXaiD9W8="
+          "Value": "sha256-IgS/o9wgJkPCn0thIsMxEkU606txHswqD3AIK/I+H2E="
         }
       ]
     },
@@ -4274,6 +4442,334 @@
         {
           "Name": "integrity",
           "Value": "sha256-oskm/tR9u//B3jMXvD8nczREbbEeRYITZwA804/oRRQ="
+        }
+      ]
+    },
+    {
+      "Route": "imagenes/CursorSmall.png",
+      "AssetFile": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\wwwroot\\imagenes\\CursorSmall.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3905"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vMw2p6CwNGTMjkeE8fbEDGO/7Ojr/DRBPtvmvvQ71hI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Sep 2026 18:08:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vMw2p6CwNGTMjkeE8fbEDGO/7Ojr/DRBPtvmvvQ71hI="
+        }
+      ]
+    },
+    {
+      "Route": "imagenes/CursorSmall.s6dmrzyvnc.png",
+      "AssetFile": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\wwwroot\\imagenes\\CursorSmall.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3905"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vMw2p6CwNGTMjkeE8fbEDGO/7Ojr/DRBPtvmvvQ71hI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Sep 2026 18:08:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s6dmrzyvnc"
+        },
+        {
+          "Name": "label",
+          "Value": "imagenes/CursorSmall.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vMw2p6CwNGTMjkeE8fbEDGO/7Ojr/DRBPtvmvvQ71hI="
+        }
+      ]
+    },
+    {
+      "Route": "imagenes/Destornillador.md2xycfoi5.png",
+      "AssetFile": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\wwwroot\\imagenes\\Destornillador.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "870992"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SowMYz6vjB4NZvZEbfjnKRAB+ttAQ1pjaHixvqsyZY8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Sep 2026 23:11:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "md2xycfoi5"
+        },
+        {
+          "Name": "label",
+          "Value": "imagenes/Destornillador.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SowMYz6vjB4NZvZEbfjnKRAB+ttAQ1pjaHixvqsyZY8="
+        }
+      ]
+    },
+    {
+      "Route": "imagenes/Destornillador.png",
+      "AssetFile": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\wwwroot\\imagenes\\Destornillador.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "870992"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SowMYz6vjB4NZvZEbfjnKRAB+ttAQ1pjaHixvqsyZY8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Sep 2026 23:11:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SowMYz6vjB4NZvZEbfjnKRAB+ttAQ1pjaHixvqsyZY8="
+        }
+      ]
+    },
+    {
+      "Route": "imagenes/DestornilladorCursor.knfr7mrv0x.png",
+      "AssetFile": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\wwwroot\\imagenes\\DestornilladorCursor.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7134"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AHdFfEOAOjZ5HPhadwIWRtz5SbJPJeb/9GaY8ahU4vo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Sep 2026 23:36:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "knfr7mrv0x"
+        },
+        {
+          "Name": "label",
+          "Value": "imagenes/DestornilladorCursor.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AHdFfEOAOjZ5HPhadwIWRtz5SbJPJeb/9GaY8ahU4vo="
+        }
+      ]
+    },
+    {
+      "Route": "imagenes/DestornilladorCursor.png",
+      "AssetFile": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\wwwroot\\imagenes\\DestornilladorCursor.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7134"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AHdFfEOAOjZ5HPhadwIWRtz5SbJPJeb/9GaY8ahU4vo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Sep 2026 23:36:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AHdFfEOAOjZ5HPhadwIWRtz5SbJPJeb/9GaY8ahU4vo="
+        }
+      ]
+    },
+    {
+      "Route": "imagenes/hand_cursor_46x64.18bxzw6l4q.png",
+      "AssetFile": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\wwwroot\\imagenes\\hand_cursor_46x64.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6757"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7yWhneXot8KtlnWeU+jPCiJfUczob948iM78D0Ni8qk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Sep 2026 18:35:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "18bxzw6l4q"
+        },
+        {
+          "Name": "label",
+          "Value": "imagenes/hand_cursor_46x64.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7yWhneXot8KtlnWeU+jPCiJfUczob948iM78D0Ni8qk="
+        }
+      ]
+    },
+    {
+      "Route": "imagenes/hand_cursor_46x64.png",
+      "AssetFile": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\wwwroot\\imagenes\\hand_cursor_46x64.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6757"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7yWhneXot8KtlnWeU+jPCiJfUczob948iM78D0Ni8qk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Sep 2026 18:35:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7yWhneXot8KtlnWeU+jPCiJfUczob948iM78D0Ni8qk="
         }
       ]
     },
@@ -5098,13 +5594,13 @@
       ]
     },
     {
-      "Route": "js/dialogo2.js",
-      "AssetFile": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\obj\\Debug\\net9.0\\compressed\\7isyeyphld-ynspxzl7aw.gz",
+      "Route": "js/dialogo2.dah9t8tads.js",
+      "AssetFile": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\obj\\Debug\\net9.0\\compressed\\7isyeyphld-dah9t8tads.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002386634845"
+          "Quality": "0.002531645570"
         }
       ],
       "ResponseHeaders": [
@@ -5114,19 +5610,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "418"
+          "Value": "394"
         },
         {
           "Name": "ETag",
-          "Value": "\"kqQEL5TukTA1NXKXa0ZdSSyMpujO6nr7GMHk13IobJw=\""
+          "Value": "\"B/StqAaGz9D4yr/9Kylg3XLM7p0U2JsdZK7E1meVDo8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 08 Sep 2026 23:26:39 GMT"
+          "Value": "Sun, 13 Sep 2026 23:07:47 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -5142,18 +5638,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Xpru389z4/ERVGkIa3i56D9XfCRRyhzcmRGuWMF+lLI=\""
+          "Value": "W/\"O5NMMoNWVHDd9SCHz8S5gqgiEG5J6Pk6SCAnejK6f3A=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "dah9t8tads"
+        },
+        {
+          "Name": "label",
+          "Value": "js/dialogo2.js"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-Xpru389z4/ERVGkIa3i56D9XfCRRyhzcmRGuWMF+lLI="
+          "Value": "sha256-O5NMMoNWVHDd9SCHz8S5gqgiEG5J6Pk6SCAnejK6f3A="
         }
       ]
     },
     {
-      "Route": "js/dialogo2.js",
+      "Route": "js/dialogo2.dah9t8tads.js",
       "AssetFile": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\wwwroot\\js\\dialogo2.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -5163,7 +5667,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "720"
+          "Value": "672"
         },
         {
           "Name": "Content-Type",
@@ -5171,121 +5675,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Xpru389z4/ERVGkIa3i56D9XfCRRyhzcmRGuWMF+lLI=\""
+          "Value": "\"O5NMMoNWVHDd9SCHz8S5gqgiEG5J6Pk6SCAnejK6f3A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 08 Sep 2026 23:26:39 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Xpru389z4/ERVGkIa3i56D9XfCRRyhzcmRGuWMF+lLI="
-        }
-      ]
-    },
-    {
-      "Route": "js/dialogo2.js.gz",
-      "AssetFile": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\obj\\Debug\\net9.0\\compressed\\7isyeyphld-ynspxzl7aw.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "418"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"kqQEL5TukTA1NXKXa0ZdSSyMpujO6nr7GMHk13IobJw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 08 Sep 2026 23:26:39 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-kqQEL5TukTA1NXKXa0ZdSSyMpujO6nr7GMHk13IobJw="
-        }
-      ]
-    },
-    {
-      "Route": "js/dialogo2.ynspxzl7aw.js",
-      "AssetFile": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\obj\\Debug\\net9.0\\compressed\\7isyeyphld-ynspxzl7aw.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.002386634845"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "418"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"kqQEL5TukTA1NXKXa0ZdSSyMpujO6nr7GMHk13IobJw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 08 Sep 2026 23:26:39 GMT"
+          "Value": "Sun, 13 Sep 2026 23:07:47 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"Xpru389z4/ERVGkIa3i56D9XfCRRyhzcmRGuWMF+lLI=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ynspxzl7aw"
+          "Value": "dah9t8tads"
         },
         {
           "Name": "label",
@@ -5293,13 +5697,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Xpru389z4/ERVGkIa3i56D9XfCRRyhzcmRGuWMF+lLI="
+          "Value": "sha256-O5NMMoNWVHDd9SCHz8S5gqgiEG5J6Pk6SCAnejK6f3A="
         }
       ]
     },
     {
-      "Route": "js/dialogo2.ynspxzl7aw.js",
-      "AssetFile": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\wwwroot\\js\\dialogo2.js",
+      "Route": "js/dialogo2.dah9t8tads.js.gz",
+      "AssetFile": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\obj\\Debug\\net9.0\\compressed\\7isyeyphld-dah9t8tads.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5308,7 +5712,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "720"
+          "Value": "394"
         },
         {
           "Name": "Content-Type",
@@ -5316,56 +5720,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Xpru389z4/ERVGkIa3i56D9XfCRRyhzcmRGuWMF+lLI=\""
+          "Value": "\"B/StqAaGz9D4yr/9Kylg3XLM7p0U2JsdZK7E1meVDo8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 08 Sep 2026 23:26:39 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ynspxzl7aw"
-        },
-        {
-          "Name": "label",
-          "Value": "js/dialogo2.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Xpru389z4/ERVGkIa3i56D9XfCRRyhzcmRGuWMF+lLI="
-        }
-      ]
-    },
-    {
-      "Route": "js/dialogo2.ynspxzl7aw.js.gz",
-      "AssetFile": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\obj\\Debug\\net9.0\\compressed\\7isyeyphld-ynspxzl7aw.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "418"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"kqQEL5TukTA1NXKXa0ZdSSyMpujO6nr7GMHk13IobJw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 08 Sep 2026 23:26:39 GMT"
+          "Value": "Sun, 13 Sep 2026 23:07:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5383,7 +5742,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ynspxzl7aw"
+          "Value": "dah9t8tads"
         },
         {
           "Name": "label",
@@ -5391,7 +5750,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-kqQEL5TukTA1NXKXa0ZdSSyMpujO6nr7GMHk13IobJw="
+          "Value": "sha256-B/StqAaGz9D4yr/9Kylg3XLM7p0U2JsdZK7E1meVDo8="
+        }
+      ]
+    },
+    {
+      "Route": "js/dialogo2.js",
+      "AssetFile": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\obj\\Debug\\net9.0\\compressed\\7isyeyphld-dah9t8tads.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002531645570"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "394"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"B/StqAaGz9D4yr/9Kylg3XLM7p0U2JsdZK7E1meVDo8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Sep 2026 23:07:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"O5NMMoNWVHDd9SCHz8S5gqgiEG5J6Pk6SCAnejK6f3A=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-O5NMMoNWVHDd9SCHz8S5gqgiEG5J6Pk6SCAnejK6f3A="
+        }
+      ]
+    },
+    {
+      "Route": "js/dialogo2.js",
+      "AssetFile": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\wwwroot\\js\\dialogo2.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "672"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"O5NMMoNWVHDd9SCHz8S5gqgiEG5J6Pk6SCAnejK6f3A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Sep 2026 23:07:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-O5NMMoNWVHDd9SCHz8S5gqgiEG5J6Pk6SCAnejK6f3A="
+        }
+      ]
+    },
+    {
+      "Route": "js/dialogo2.js.gz",
+      "AssetFile": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\obj\\Debug\\net9.0\\compressed\\7isyeyphld-dah9t8tads.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "394"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"B/StqAaGz9D4yr/9Kylg3XLM7p0U2JsdZK7E1meVDo8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Sep 2026 23:07:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-B/StqAaGz9D4yr/9Kylg3XLM7p0U2JsdZK7E1meVDo8="
         }
       ]
     },
@@ -5694,13 +6190,13 @@
       ]
     },
     {
-      "Route": "js/site.ezuycuc0y3.js",
-      "AssetFile": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\obj\\Debug\\net9.0\\compressed\\3pcz8na942-ezuycuc0y3.gz",
+      "Route": "js/dialogo4.gzs2tx68zu.js",
+      "AssetFile": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\obj\\Debug\\net9.0\\compressed\\le9uw83204-gzs2tx68zu.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000943396226"
+          "Quality": "0.003816793893"
         }
       ],
       "ResponseHeaders": [
@@ -5710,15 +6206,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1059"
+          "Value": "261"
         },
         {
           "Name": "ETag",
-          "Value": "\"M6IiZQPmW2PB1nb4sYY/abI43wwYkLifiiMIptGMnjA=\""
+          "Value": "\"326BvY4/9NnI+/bIjVAeByIdELqDZghhbULYsGLtc3k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Sep 2026 01:32:47 GMT"
+          "Value": "Sun, 13 Sep 2026 23:07:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5738,13 +6234,609 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"pqrRkWITuYLgvsQDhv7/8fgR6wNuMRJfIVr0HzyYWy8=\""
+          "Value": "W/\"PMAfjm0BK7Z14LiWhyCSiavuJToIdFD4z+a6OMp2cXI=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ezuycuc0y3"
+          "Value": "gzs2tx68zu"
+        },
+        {
+          "Name": "label",
+          "Value": "js/dialogo4.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PMAfjm0BK7Z14LiWhyCSiavuJToIdFD4z+a6OMp2cXI="
+        }
+      ]
+    },
+    {
+      "Route": "js/dialogo4.gzs2tx68zu.js",
+      "AssetFile": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\wwwroot\\js\\dialogo4.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "420"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PMAfjm0BK7Z14LiWhyCSiavuJToIdFD4z+a6OMp2cXI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Sep 2026 23:07:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gzs2tx68zu"
+        },
+        {
+          "Name": "label",
+          "Value": "js/dialogo4.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PMAfjm0BK7Z14LiWhyCSiavuJToIdFD4z+a6OMp2cXI="
+        }
+      ]
+    },
+    {
+      "Route": "js/dialogo4.gzs2tx68zu.js.gz",
+      "AssetFile": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\obj\\Debug\\net9.0\\compressed\\le9uw83204-gzs2tx68zu.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "261"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"326BvY4/9NnI+/bIjVAeByIdELqDZghhbULYsGLtc3k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Sep 2026 23:07:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gzs2tx68zu"
+        },
+        {
+          "Name": "label",
+          "Value": "js/dialogo4.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-326BvY4/9NnI+/bIjVAeByIdELqDZghhbULYsGLtc3k="
+        }
+      ]
+    },
+    {
+      "Route": "js/dialogo4.js",
+      "AssetFile": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\obj\\Debug\\net9.0\\compressed\\le9uw83204-gzs2tx68zu.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003816793893"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "261"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"326BvY4/9NnI+/bIjVAeByIdELqDZghhbULYsGLtc3k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Sep 2026 23:07:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"PMAfjm0BK7Z14LiWhyCSiavuJToIdFD4z+a6OMp2cXI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PMAfjm0BK7Z14LiWhyCSiavuJToIdFD4z+a6OMp2cXI="
+        }
+      ]
+    },
+    {
+      "Route": "js/dialogo4.js",
+      "AssetFile": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\wwwroot\\js\\dialogo4.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "420"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PMAfjm0BK7Z14LiWhyCSiavuJToIdFD4z+a6OMp2cXI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Sep 2026 23:07:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PMAfjm0BK7Z14LiWhyCSiavuJToIdFD4z+a6OMp2cXI="
+        }
+      ]
+    },
+    {
+      "Route": "js/dialogo4.js.gz",
+      "AssetFile": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\obj\\Debug\\net9.0\\compressed\\le9uw83204-gzs2tx68zu.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "261"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"326BvY4/9NnI+/bIjVAeByIdELqDZghhbULYsGLtc3k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Sep 2026 23:07:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-326BvY4/9NnI+/bIjVAeByIdELqDZghhbULYsGLtc3k="
+        }
+      ]
+    },
+    {
+      "Route": "js/sala4.js",
+      "AssetFile": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\obj\\Debug\\net9.0\\compressed\\0f3suazdje-x4b7kikwz3.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003571428571"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "279"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z95VLI6GcCXJae/5C5R0YNi8elhJ91PfUnjYNFyniKQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Sep 2026 23:41:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"32+mvf6sLhnbWatutJDEjF7lrkmBcPpc6dtUr8wPxIQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-32+mvf6sLhnbWatutJDEjF7lrkmBcPpc6dtUr8wPxIQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/sala4.js",
+      "AssetFile": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\wwwroot\\js\\sala4.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "636"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"32+mvf6sLhnbWatutJDEjF7lrkmBcPpc6dtUr8wPxIQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Sep 2026 23:41:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-32+mvf6sLhnbWatutJDEjF7lrkmBcPpc6dtUr8wPxIQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/sala4.js.gz",
+      "AssetFile": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\obj\\Debug\\net9.0\\compressed\\0f3suazdje-x4b7kikwz3.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "279"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z95VLI6GcCXJae/5C5R0YNi8elhJ91PfUnjYNFyniKQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Sep 2026 23:41:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-z95VLI6GcCXJae/5C5R0YNi8elhJ91PfUnjYNFyniKQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/sala4.x4b7kikwz3.js",
+      "AssetFile": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\obj\\Debug\\net9.0\\compressed\\0f3suazdje-x4b7kikwz3.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003571428571"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "279"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z95VLI6GcCXJae/5C5R0YNi8elhJ91PfUnjYNFyniKQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Sep 2026 23:41:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"32+mvf6sLhnbWatutJDEjF7lrkmBcPpc6dtUr8wPxIQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x4b7kikwz3"
+        },
+        {
+          "Name": "label",
+          "Value": "js/sala4.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-32+mvf6sLhnbWatutJDEjF7lrkmBcPpc6dtUr8wPxIQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/sala4.x4b7kikwz3.js",
+      "AssetFile": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\wwwroot\\js\\sala4.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "636"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"32+mvf6sLhnbWatutJDEjF7lrkmBcPpc6dtUr8wPxIQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Sep 2026 23:41:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x4b7kikwz3"
+        },
+        {
+          "Name": "label",
+          "Value": "js/sala4.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-32+mvf6sLhnbWatutJDEjF7lrkmBcPpc6dtUr8wPxIQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/sala4.x4b7kikwz3.js.gz",
+      "AssetFile": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\obj\\Debug\\net9.0\\compressed\\0f3suazdje-x4b7kikwz3.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "279"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z95VLI6GcCXJae/5C5R0YNi8elhJ91PfUnjYNFyniKQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Sep 2026 23:41:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x4b7kikwz3"
+        },
+        {
+          "Name": "label",
+          "Value": "js/sala4.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-z95VLI6GcCXJae/5C5R0YNi8elhJ91PfUnjYNFyniKQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.b4u1sb8zgv.js",
+      "AssetFile": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\obj\\Debug\\net9.0\\compressed\\3pcz8na942-b4u1sb8zgv.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001010101010"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "989"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KkIptFBgqJ9T5OMkLslrJbUIAi5Bt7zG6QlCHkMBhLY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Sep 2026 23:06:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Rck0pjjulZXF3Fi16KVKkiZN1YLVXPil56QkmDjI25w=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b4u1sb8zgv"
         },
         {
           "Name": "label",
@@ -5752,12 +6844,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-pqrRkWITuYLgvsQDhv7/8fgR6wNuMRJfIVr0HzyYWy8="
+          "Value": "sha256-Rck0pjjulZXF3Fi16KVKkiZN1YLVXPil56QkmDjI25w="
         }
       ]
     },
     {
-      "Route": "js/site.ezuycuc0y3.js",
+      "Route": "js/site.b4u1sb8zgv.js",
       "AssetFile": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -5767,7 +6859,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3545"
+          "Value": "3431"
         },
         {
           "Name": "Content-Type",
@@ -5775,11 +6867,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pqrRkWITuYLgvsQDhv7/8fgR6wNuMRJfIVr0HzyYWy8=\""
+          "Value": "\"Rck0pjjulZXF3Fi16KVKkiZN1YLVXPil56QkmDjI25w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Sep 2026 01:32:47 GMT"
+          "Value": "Sun, 13 Sep 2026 23:06:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5789,7 +6881,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ezuycuc0y3"
+          "Value": "b4u1sb8zgv"
         },
         {
           "Name": "label",
@@ -5797,13 +6889,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-pqrRkWITuYLgvsQDhv7/8fgR6wNuMRJfIVr0HzyYWy8="
+          "Value": "sha256-Rck0pjjulZXF3Fi16KVKkiZN1YLVXPil56QkmDjI25w="
         }
       ]
     },
     {
-      "Route": "js/site.ezuycuc0y3.js.gz",
-      "AssetFile": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\obj\\Debug\\net9.0\\compressed\\3pcz8na942-ezuycuc0y3.gz",
+      "Route": "js/site.b4u1sb8zgv.js.gz",
+      "AssetFile": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\obj\\Debug\\net9.0\\compressed\\3pcz8na942-b4u1sb8zgv.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5812,7 +6904,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1059"
+          "Value": "989"
         },
         {
           "Name": "Content-Type",
@@ -5820,11 +6912,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"M6IiZQPmW2PB1nb4sYY/abI43wwYkLifiiMIptGMnjA=\""
+          "Value": "\"KkIptFBgqJ9T5OMkLslrJbUIAi5Bt7zG6QlCHkMBhLY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Sep 2026 01:32:47 GMT"
+          "Value": "Sun, 13 Sep 2026 23:06:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5842,7 +6934,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ezuycuc0y3"
+          "Value": "b4u1sb8zgv"
         },
         {
           "Name": "label",
@@ -5850,18 +6942,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-M6IiZQPmW2PB1nb4sYY/abI43wwYkLifiiMIptGMnjA="
+          "Value": "sha256-KkIptFBgqJ9T5OMkLslrJbUIAi5Bt7zG6QlCHkMBhLY="
         }
       ]
     },
     {
       "Route": "js/site.js",
-      "AssetFile": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\obj\\Debug\\net9.0\\compressed\\3pcz8na942-ezuycuc0y3.gz",
+      "AssetFile": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\obj\\Debug\\net9.0\\compressed\\3pcz8na942-b4u1sb8zgv.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000943396226"
+          "Quality": "0.001010101010"
         }
       ],
       "ResponseHeaders": [
@@ -5871,15 +6963,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1059"
+          "Value": "989"
         },
         {
           "Name": "ETag",
-          "Value": "\"M6IiZQPmW2PB1nb4sYY/abI43wwYkLifiiMIptGMnjA=\""
+          "Value": "\"KkIptFBgqJ9T5OMkLslrJbUIAi5Bt7zG6QlCHkMBhLY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Sep 2026 01:32:47 GMT"
+          "Value": "Sun, 13 Sep 2026 23:06:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5899,13 +6991,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"pqrRkWITuYLgvsQDhv7/8fgR6wNuMRJfIVr0HzyYWy8=\""
+          "Value": "W/\"Rck0pjjulZXF3Fi16KVKkiZN1YLVXPil56QkmDjI25w=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pqrRkWITuYLgvsQDhv7/8fgR6wNuMRJfIVr0HzyYWy8="
+          "Value": "sha256-Rck0pjjulZXF3Fi16KVKkiZN1YLVXPil56QkmDjI25w="
         }
       ]
     },
@@ -5920,7 +7012,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3545"
+          "Value": "3431"
         },
         {
           "Name": "Content-Type",
@@ -5928,11 +7020,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pqrRkWITuYLgvsQDhv7/8fgR6wNuMRJfIVr0HzyYWy8=\""
+          "Value": "\"Rck0pjjulZXF3Fi16KVKkiZN1YLVXPil56QkmDjI25w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Sep 2026 01:32:47 GMT"
+          "Value": "Sun, 13 Sep 2026 23:06:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5942,13 +7034,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pqrRkWITuYLgvsQDhv7/8fgR6wNuMRJfIVr0HzyYWy8="
+          "Value": "sha256-Rck0pjjulZXF3Fi16KVKkiZN1YLVXPil56QkmDjI25w="
         }
       ]
     },
     {
       "Route": "js/site.js.gz",
-      "AssetFile": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\obj\\Debug\\net9.0\\compressed\\3pcz8na942-ezuycuc0y3.gz",
+      "AssetFile": "C:\\Users\\ignac\\OneDrive\\Documentos\\2026\\programacion\\TpSalaEscape\\obj\\Debug\\net9.0\\compressed\\3pcz8na942-b4u1sb8zgv.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5957,7 +7049,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1059"
+          "Value": "989"
         },
         {
           "Name": "Content-Type",
@@ -5965,11 +7057,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"M6IiZQPmW2PB1nb4sYY/abI43wwYkLifiiMIptGMnjA=\""
+          "Value": "\"KkIptFBgqJ9T5OMkLslrJbUIAi5Bt7zG6QlCHkMBhLY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Sep 2026 01:32:47 GMT"
+          "Value": "Sun, 13 Sep 2026 23:06:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5987,7 +7079,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-M6IiZQPmW2PB1nb4sYY/abI43wwYkLifiiMIptGMnjA="
+          "Value": "sha256-KkIptFBgqJ9T5OMkLslrJbUIAi5Bt7zG6QlCHkMBhLY="
         }
       ]
     },
@@ -23978,7 +25070,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Sep 2026 15:08:44 GMT"
+          "Value": "Sun, 13 Sep 2026 18:44:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24039,7 +25131,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Sep 2026 15:08:44 GMT"
+          "Value": "Sun, 13 Sep 2026 18:44:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24084,7 +25176,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Sep 2026 15:08:44 GMT"
+          "Value": "Sun, 13 Sep 2026 18:44:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24139,7 +25231,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Sep 2026 15:08:44 GMT"
+          "Value": "Sun, 13 Sep 2026 18:44:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24200,7 +25292,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Sep 2026 15:08:44 GMT"
+          "Value": "Sun, 13 Sep 2026 18:44:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24245,7 +25337,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Sep 2026 15:08:44 GMT"
+          "Value": "Sun, 13 Sep 2026 18:44:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24300,7 +25392,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Sep 2026 15:08:44 GMT"
+          "Value": "Sun, 13 Sep 2026 18:44:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24353,7 +25445,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Sep 2026 15:08:44 GMT"
+          "Value": "Sun, 13 Sep 2026 18:44:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24390,7 +25482,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Sep 2026 15:08:44 GMT"
+          "Value": "Sun, 13 Sep 2026 18:44:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24437,7 +25529,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Sep 2026 15:08:44 GMT"
+          "Value": "Sun, 13 Sep 2026 18:44:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24490,7 +25582,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Sep 2026 15:08:44 GMT"
+          "Value": "Sun, 13 Sep 2026 18:44:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24527,7 +25619,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Sep 2026 15:08:44 GMT"
+          "Value": "Sun, 13 Sep 2026 18:44:58 GMT"
         },
         {
           "Name": "Cache-Control",

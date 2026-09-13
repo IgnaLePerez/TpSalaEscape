@@ -15,6 +15,16 @@ html, body {
   color: #e8d4b0;
   image-rendering: pixelated;
   image-rendering: crisp-edges;
+  cursor: url('/imagenes/CursorSmall.png') 8 4, auto;
+}
+
+button:not(:disabled):hover,
+a:hover,
+input[type="submit"]:not(:disabled):hover,
+input[type="button"]:not(:disabled):hover,
+[role="button"]:hover,
+[onclick]:not(:disabled):hover {
+  cursor: url('/imagenes/hand_cursor_46x64.png') 8 4, pointer;
 }
 
 /* SALA RETRO - ESTILOS GENERALES */
@@ -85,7 +95,7 @@ html, body {
   background-color: #8B0000;
   color: #e8d4b0;
   border: 6px solid #000000;
-  cursor: pointer;
+  cursor: url('/imagenes/CursorSmall.png') 8 4, auto;
   text-align: center;
   text-shadow: 2px 2px 0px #000000;
   letter-spacing: 1px;
@@ -267,7 +277,7 @@ html, body {
   background-color: #8B0000;
   color: #e8d4b0;
   border: 6px solid #000000;
-  cursor: pointer;
+  cursor: url('/imagenes/CursorSmall.png') 8 4, auto;
   text-align: center;
   text-shadow: 2px 2px 0px #000000;
   letter-spacing: 2px;
@@ -874,4 +884,60 @@ La historia gira alrededor de una sala de escape relacionada con el rock naciona
 
 .historia-volver {
   text-decoration: none;
+}
+
+.sala4-container {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  background-image: linear-gradient(rgba(10, 5, 8, 0.35), rgba(10, 5, 8, 0.45)), url('/imagenes/Sótano.png');
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+}
+
+.destornillador {
+    position: absolute;
+    left: 83%;
+    bottom: 39%;
+    width: min(14vw, 130px);
+    height: auto;
+    cursor: url(/imagenes/CursorSmall.png) 8 4, pointer;
+    transition: transform 0.15s ease;
+}
+
+.destornillador:hover {
+  transform: scale(1.04);
+}
+
+.destornillador-tomado {
+  opacity: 0.65;
+}
+
+.ventila {
+  position: absolute;
+    display: block;
+    width: 26vw;
+    height: 8vw;
+    min-width: 190px;
+    min-height: 120px;
+    max-width: 453px;
+    max-height: 260px;
+    bottom: 4%;
+    cursor: inherit;
+}
+
+.ventila:hover{
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.sala4.cursor-destornillador,
+.sala4.cursor-destornillador * {
+  cursor: url('/imagenes/DestornilladorCursor.png') 8 8, auto;
+}
+
+.sala4.cursor-destornillador .destornillador:hover,
+.sala4.cursor-destornillador .ventila:hover {
+  cursor: url('/imagenes/DestornilladorCursor.png') 8 8, auto;
 }
