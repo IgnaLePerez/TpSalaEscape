@@ -4,6 +4,17 @@ btnOpcion2 = document.getElementById("btnOpcion2");
 btnOpcion3 = document.getElementById("btnOpcion3");
 btnOpcion4 = document.getElementById("btnOpcion4");
 mensajeError = document.getElementById("mensajeError");
+const contenedorError = document.querySelector(".error-container");
+
+function OcultarMensajeError() {
+  contenedorError.classList.add("error-container-oculto");
+  mensajeError.innerHTML = "";
+}
+
+function MostrarMensajeError(mensaje) {
+  mensajeError.innerHTML = mensaje;
+  contenedorError.classList.remove("error-container-oculto");
+}
 
 const preguntas = [
   {
@@ -52,7 +63,7 @@ function AvanzarPreguntas() {
         document.getElementById("btnOpcion3").style.backgroundColor = "#8B0000";
         document.getElementById("btnOpcion4").style.backgroundColor = "#8B0000";
         
-        mensajeError.innerHTML = "";
+        OcultarMensajeError();
         return;
     }
     else {
@@ -68,7 +79,7 @@ function VerificarRespuesta(opcion) {
     else{
         boton = document.getElementById("btnOpcion" + opcion);
         boton.style.backgroundColor = "red";
-        mensajeError.innerHTML = "Respuesta incorrecta. Intenta de nuevo.";
+        MostrarMensajeError("Respuesta incorrecta. Intenta de nuevo.");
         return;
     }
 }

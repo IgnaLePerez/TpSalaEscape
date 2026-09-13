@@ -1,0 +1,57 @@
+<body class="sala-retro sala1">
+	<main class="sala-container sala3-container">
+		<h1 class="pregunta-retro">Linkeá cada álbum con su artista</h1>
+
+		<div class="sala3-columnas">
+			<section class="sala3-grupo" aria-labelledby="albumes-titulo">
+				<h2 id="albumes-titulo" class="sala3-subtitulo">Álbumes</h2>
+				<div class="sala3-opciones" role="group" aria-label="Álbumes de rock nacional">
+					<button type="button" class="boton-opcion-retro sala3-opcion" data-tipo="album" data-valor="alta-suciedad">
+						<img src="~/imagenes/ALTASUCIEDAD.png" alt="" />
+						<span>Alta Suciedad</span>
+					</button>
+					<button type="button" class="boton-opcion-retro sala3-opcion" data-tipo="album" data-valor="artaud">
+						<img src="~/imagenes/ARTAUD.png" alt="" />
+						<span>Artaud</span>
+					</button>
+					<button type="button" class="boton-opcion-retro sala3-opcion" data-tipo="album" data-valor="oktubre">
+						<img src="~/imagenes/OKTUBRE.png" alt="" />
+						<span>Oktubre</span>
+					</button>
+					<button type="button" class="boton-opcion-retro sala3-opcion" data-tipo="album" data-valor="corpinos-en-la-madrugada">
+						<img src="~/imagenes/CORPIÑOSENLAMADRUGADA.png" alt="" />
+						<span>Corpiños en la madrugada</span>
+					</button>
+				</div>
+			</section>
+
+			<section class="sala3-grupo" aria-labelledby="artistas-titulo">
+				<h2 id="artistas-titulo" class="sala3-subtitulo">Artistas</h2>
+				<div class="sala3-opciones" role="group" aria-label="Artistas de rock nacional">
+					<button type="button" class="boton-opcion-retro sala3-opcion" data-tipo="artista" data-valor="los-redondos">
+						<img src="~/imagenes/LOSREDONDOS.png" alt="" />
+						<span>Los Redondos</span>
+					</button>
+					<button type="button" class="boton-opcion-retro sala3-opcion" data-tipo="artista" data-valor="sumo">
+						<img src="~/imagenes/SUMO.png" alt="" />
+						<span>Sumo</span>
+					</button>
+					<button type="button" class="boton-opcion-retro sala3-opcion" data-tipo="artista" data-valor="pescado-rabioso">
+						<img src="~/imagenes/PESCADORABIOSO.png" alt="" />
+						<span>Pescado Rabioso</span>
+					</button>
+					<button type="button" class="boton-opcion-retro sala3-opcion" data-tipo="artista" data-valor="andres-calamaro">
+						<img src="~/imagenes/ANDRESCALAMARO.png" alt="" />
+						<span>Andrés Calamaro</span>
+					</button>
+				</div>
+			</section>
+		</div>
+
+		<button id="btnComprobar" type="button" class="boton-retro sala3-comprobar" disabled>Comprobar</button>
+		<div class="error-container sala3-mensaje-container error-container-oculto" aria-live="polite">
+			<p id="mensajeError" class="mensaje-error"></p>
+		</div>
+	</main>
+	<script src="~/js/site3.js" asp-append-version="true"></script>
+</body>
