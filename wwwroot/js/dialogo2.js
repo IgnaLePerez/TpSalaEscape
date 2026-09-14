@@ -1,3 +1,5 @@
+btnSaltear = document.getElementById("btnSaltear");
+
 const dialogos = [
     "Parece que sabés algo de rock.",
     "Pero no te agrandes.",
@@ -17,5 +19,11 @@ function AvanzarDialogo() {
     if (indiceDialogo < dialogos.length) {
         txtDialogo.innerHTML = dialogos[indiceDialogo];
         indiceDialogo++;
+        if (indiceDialogo == dialogos.length) {
+            btnSaltear.style.display = "none";
+        }
+    }
+    else{
+      window.location.href = '/home/IrASala';
     }
 }
