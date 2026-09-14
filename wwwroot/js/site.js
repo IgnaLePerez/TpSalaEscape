@@ -3,6 +3,7 @@ btnOpcion1 = document.getElementById("btnOpcion1");
 btnOpcion2 = document.getElementById("btnOpcion2");
 btnOpcion3 = document.getElementById("btnOpcion3");
 btnOpcion4 = document.getElementById("btnOpcion4");
+btnSaltear = document.getElementById("btnSaltear");
 mensajeError = document.getElementById("mensajeError");
 const contenedorError = document.querySelector(".error-container");
 
@@ -65,6 +66,12 @@ function AvanzarDialogo() {
     if (indiceDialogo < dialogos.length) {
         txtDialogo.innerHTML = dialogos[indiceDialogo];
         indiceDialogo++;
+        if (indiceDialogo === dialogos.length) {
+          btnSaltear.style.display = "none";
+        }
+    }
+    else{
+      window.location.href = '/home/IrASala';
     }
 }   
 

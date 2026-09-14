@@ -551,6 +551,20 @@ input[type="button"]:not(:disabled):hover,
     background-attachment: fixed;
 }
 
+.partida-ganada {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding: 60px 20px;
+  background-image: url(/imagenes/Escape.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 .index-content {
     width: min(60%, 720px);
     display: flex;
