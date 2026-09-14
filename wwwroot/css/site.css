@@ -146,6 +146,10 @@ input[type="button"]:not(:disabled):hover,
   justify-content: center;
 }
 
+.error-container-oculto {
+  display: none;
+}
+
 .mensaje-error {
   font-family: 'Press Start 2P', cursive;
   font-size: 16px;
@@ -158,6 +162,83 @@ input[type="button"]:not(:disabled):hover,
   background-color: rgba(50, 0, 0, 0.9);
   min-width: 100%;
   line-height: 1.4;
+}
+
+/* DESAFIO DE RELACIONAR ALBUMES Y ARTISTAS */
+.sala3-container {
+  gap: 24px;
+}
+
+.sala3-columnas {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px;
+  width: min(100%, 751px);
+}
+
+.sala3-grupo {
+  min-width: 0;
+}
+
+.sala3-subtitulo {
+  margin-bottom: 16px;
+  color: #e8d4b0;
+  font-size: 18px;
+  line-height: 1.4;
+  text-align: center;
+  text-shadow: 3px 3px 0 #000000;
+}
+
+.sala3-opciones {
+  display: grid;
+  gap: 14px;
+  justify-items: center;
+}
+
+.sala3-opcion {
+  width: 43%;
+  aspect-ratio: 1;
+  margin: 0;
+  font-size: 13px;
+  padding: 12px;
+  flex-direction: column;
+  gap: 10px;
+  line-height: 1.3;
+}
+
+.sala3-opcion img {
+  display: block;
+  width: 60%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border: 3px solid #000000;
+}
+
+.sala3-opcion span {
+  display: block;
+  font-size: 10px;
+}
+
+.sala3-opcion.sala3-seleccionada {
+  background-color: #b52b2b;
+  outline: 4px solid #e8d4b0;
+  outline-offset: -10px;
+}
+
+.sala3-comprobar {
+  width: min(100%, 280px);
+  margin-top: 8px;
+  align-self: center;
+}
+
+.sala3-mensaje-container {
+  width: min(100%, 760px);
+}
+
+.sala3-mensaje-correcto {
+  color: #a8e6a3;
+  border-color: #4f9d4a;
+  background-color: rgba(15, 55, 15, 0.9);
 }
 
 /* DIALOGO RETRO */
@@ -271,7 +352,7 @@ input[type="button"]:not(:disabled):hover,
 .boton-retro,
 .dialogo-botones input[type="submit"] {
   font-family: 'Press Start 2P', cursive;
-  font-size: 11px;
+  background-color: #555555;
   font-weight: 900;
   padding: 20px 25px;
   background-color: #8B0000;
@@ -294,6 +375,17 @@ input[type="button"]:not(:disabled):hover,
   align-items: center;
   justify-content: center;
 }
+.sala3-opcion.sala3-correcta,
+.sala3-opcion.sala3-correcta:hover {
+  background-color: #287a35;
+  color: #d9f5d3;
+  cursor: default;
+  top: 0;
+  box-shadow:
+    0px 6px 0px rgba(0, 0, 0, 0.8),
+    inset 2px 2px 0px rgba(180, 255, 180, 0.25),
+    inset -2px -2px 0px rgba(0, 0, 0, 0.8);
+}
 
 .boton-retro:hover,
 .dialogo-botones input[type="submit"]:hover {
@@ -302,6 +394,18 @@ input[type="button"]:not(:disabled):hover,
   box-shadow: 
     0px 4px 0px rgba(0, 0, 0, 0.8),
     inset 2px 2px 0px rgba(255, 100, 100, 0.3),
+    inset -2px -2px 0px rgba(0, 0, 0, 0.8);
+}
+
+.boton-retro:disabled,
+.boton-retro:disabled:hover {
+  background-color: #555555;
+  color: #999999;
+  cursor: not-allowed;
+  top: 0;
+  box-shadow:
+    0px 6px 0px rgba(0, 0, 0, 0.8),
+    inset 2px 2px 0px rgba(255, 255, 255, 0.08),
     inset -2px -2px 0px rgba(0, 0, 0, 0.8);
 }
 
@@ -353,6 +457,10 @@ input[type="button"]:not(:disabled):hover,
   .opciones {
     grid-template-columns: 1fr;
   }
+
+  .sala3-columnas {
+    gap: 18px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -365,6 +473,22 @@ input[type="button"]:not(:disabled):hover,
     font-size: 12px;
     padding: 12px 8px;
     min-height: 70px;
+  }
+
+  .sala3-columnas {
+    grid-template-columns: 1fr;
+  }
+
+  .sala3-subtitulo {
+    font-size: 14px;
+  }
+
+  .sala3-opcion {
+    font-size: 11px;
+  }
+
+  .sala3-opcion img {
+    width: min(100%, 130px);
   }
 
   .dialogo-texto {

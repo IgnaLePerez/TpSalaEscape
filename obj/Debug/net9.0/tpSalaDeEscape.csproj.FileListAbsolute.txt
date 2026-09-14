@@ -62,9 +62,15 @@ C:\Users\ignac\OneDrive\Documentos\2026\programacion\TpSalaEscape\obj\Debug\net9
 C:\Users\ignac\OneDrive\Documentos\2026\programacion\TpSalaEscape\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\ignac\OneDrive\Documentos\2026\programacion\TpSalaEscape\obj\Debug\net9.0\scopedcss\bundle\tpSalaDeEscape.styles.css
 C:\Users\ignac\OneDrive\Documentos\2026\programacion\TpSalaEscape\obj\Debug\net9.0\scopedcss\projectbundle\tpSalaDeEscape.bundle.scp.css
+C:\Users\ignac\OneDrive\Documentos\2026\programacion\TpSalaEscape\obj\Debug\net9.0\compressed\9fv11mkv02-6t61cp5r0c.gz
 C:\Users\ignac\OneDrive\Documentos\2026\programacion\TpSalaEscape\obj\Debug\net9.0\compressed\vqovx1gocv-61n19gt1b8.gz
+C:\Users\ignac\OneDrive\Documentos\2026\programacion\TpSalaEscape\obj\Debug\net9.0\compressed\7isyeyphld-dah9t8tads.gz
 C:\Users\ignac\OneDrive\Documentos\2026\programacion\TpSalaEscape\obj\Debug\net9.0\compressed\ihbkbzknaa-vgjydh5hxn.gz
-C:\Users\ignac\OneDrive\Documentos\2026\programacion\TpSalaEscape\obj\Debug\net9.0\compressed\rmzy0r6z34-mhu94hfadi.gz
+C:\Users\ignac\OneDrive\Documentos\2026\programacion\TpSalaEscape\obj\Debug\net9.0\compressed\le9uw83204-gzs2tx68zu.gz
+C:\Users\ignac\OneDrive\Documentos\2026\programacion\TpSalaEscape\obj\Debug\net9.0\compressed\0f3suazdje-x4b7kikwz3.gz
+C:\Users\ignac\OneDrive\Documentos\2026\programacion\TpSalaEscape\obj\Debug\net9.0\compressed\3pcz8na942-0dexvfvro1.gz
+C:\Users\ignac\OneDrive\Documentos\2026\programacion\TpSalaEscape\obj\Debug\net9.0\compressed\rmzy0r6z34-1yfrl085i6.gz
+C:\Users\ignac\OneDrive\Documentos\2026\programacion\TpSalaEscape\obj\Debug\net9.0\compressed\uprigl21zp-zuhg9lwtua.gz
 C:\Users\ignac\OneDrive\Documentos\2026\programacion\TpSalaEscape\obj\Debug\net9.0\compressed\fx5mkt2h98-t1cqhe9u97.gz
 C:\Users\ignac\OneDrive\Documentos\2026\programacion\TpSalaEscape\obj\Debug\net9.0\compressed\8pbale9vp8-c2jlpeoesf.gz
 C:\Users\ignac\OneDrive\Documentos\2026\programacion\TpSalaEscape\obj\Debug\net9.0\compressed\qgw7386hab-sejl45xvog.gz
@@ -141,8 +147,3 @@ C:\Users\ignac\OneDrive\Documentos\2026\programacion\TpSalaEscape\obj\Debug\net9
 C:\Users\ignac\OneDrive\Documentos\2026\programacion\TpSalaEscape\obj\Debug\net9.0\tpSalaDeEscape.pdb
 C:\Users\ignac\OneDrive\Documentos\2026\programacion\TpSalaEscape\obj\Debug\net9.0\tpSalaDeEscape.genruntimeconfig.cache
 C:\Users\ignac\OneDrive\Documentos\2026\programacion\TpSalaEscape\obj\Debug\net9.0\ref\tpSalaDeEscape.dll
-C:\Users\ignac\OneDrive\Documentos\2026\programacion\TpSalaEscape\obj\Debug\net9.0\compressed\7isyeyphld-dah9t8tads.gz
-C:\Users\ignac\OneDrive\Documentos\2026\programacion\TpSalaEscape\obj\Debug\net9.0\compressed\le9uw83204-gzs2tx68zu.gz
-C:\Users\ignac\OneDrive\Documentos\2026\programacion\TpSalaEscape\obj\Debug\net9.0\compressed\3pcz8na942-b4u1sb8zgv.gz
-C:\Users\ignac\OneDrive\Documentos\2026\programacion\TpSalaEscape\obj\Debug\net9.0\compressed\9fv11mkv02-983x2ud17f.gz
-C:\Users\ignac\OneDrive\Documentos\2026\programacion\TpSalaEscape\obj\Debug\net9.0\compressed\0f3suazdje-x4b7kikwz3.gz

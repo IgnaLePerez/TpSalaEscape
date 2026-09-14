@@ -9,7 +9,7 @@ namespace tpSalaDeEscape.Models
     {
         private static string _connectionString = @"Server=.\SQLEXPRESS;DataBase=SalaDeEscape;Integrated Security=True;TrustServerCertificate=True;";
 
-        public static void AvanzarSala(string idPartida, int idSala)
+        public static void AvanzarSala(string idPartida, string idSala)
         {
             string query = "UPDATE Partidas SET idSala = @IdSala WHERE id = @IdPartida";
             using (SqlConnection connection = new SqlConnection(_connectionString))
@@ -74,6 +74,15 @@ namespace tpSalaDeEscape.Models
             using (SqlConnection connection = new SqlConnection(_connectionString))
             {
                 return connection.QueryFirstOrDefault<Partida>(query, new { Nombre = nombre });
+            }
+        }
+
+        public static void TerminarPartida(string idPartida)
+        {
+            string query = "UPDATE Partidas SET estado = 'Terminada' WHERE id = @IdPartida";
+            using (SqlConnection connection = new SqlConnection(_connectionString))
+            {
+                connection.Execute(query, new { IdPartida = idPartida});
             }
         }
     }

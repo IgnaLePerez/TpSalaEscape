@@ -80,16 +80,16 @@ public class HomeController : Controller
 
     public IActionResult AvanzarSala(){
         
-        string idSala = (int.Parse(HttpContext.Session.GetString("idSala")) + 1).ToString();
-        HttpContext.Session.SetString("idSala", idSala);
-        BD.AvanzarSala(HttpContext.Session.GetString("idPartida"), int.Parse(idSala));
+        int idSala = int.Parse(HttpContext.Session.GetString("idSala")) + 1;
+        HttpContext.Session.SetString("idSala", idSala.ToString());
+        BD.AvanzarSala(HttpContext.Session.GetString("idPartida"), idSala.ToString());
         return View("Dialogo" + HttpContext.Session.GetString("idSala"));
     }
 
     public IActionResult PartidaGanada()
     {
+        BD.TerminarPartida(HttpContext.Session.GetString("idPartida"));
         return View();
-
     }
 
     public IActionResult PartidaPerdida()
