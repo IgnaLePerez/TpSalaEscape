@@ -335,13 +335,13 @@ input[type="button"]:not(:disabled):hover,
 
 .dialogo-botones form {
   flex: 0 0 140px;
-  width: 140px;
+  width: auto;
 }
 
 .dialogo-botones .boton-retro,
 .dialogo-botones input[type="submit"] {
   width: 140px;
-  min-height: 48px;
+  min-height: 67px;
   padding: 12px 8px;
   font-size: 11px;
   line-height: 1.4;

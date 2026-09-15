@@ -1,3 +1,5 @@
+<script src="~/js/dialogo1.js"></script>
+
 <main class="dialogo-retro">
     <div class="dialogo-container">
         <div class="dialogo-imagen">
@@ -9,7 +11,7 @@
         <div class="dialogo-botones">
             <button id="btnContinuar" class="boton-retro" onclick="AvanzarDialogo()">Continuar</button>
             <form method="post" action="@Url.Action("IrASala", "Home")">
-                <input type="submit" class="boton-retro" id="btnSaltear"/>
+                <input type="submit" class="boton-retro" value="saltear" id="btnSaltear"/>
             </form>
         </div>
     </div>
