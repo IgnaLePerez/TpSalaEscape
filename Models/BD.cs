@@ -7,7 +7,7 @@ namespace tpSalaDeEscape.Models
 {
     public static class BD
     {
-        private static string _connectionString = @"Server=localhost\SQLEXPRESS;DataBase=SalaDeEscape;Integrated Security=True;TrustServerCertificate=True;";
+        private static string _connectionString = @"Server=localhost;DataBase=SalaDeEscape;Integrated Security=True;TrustServerCertificate=True;";
 
         public static void AvanzarSala(string idPartida, string idSala)
         {
@@ -29,7 +29,7 @@ namespace tpSalaDeEscape.Models
 
         public static void CrearPartida(string estado, string idSala, string nombreJugador)
         {
-            string query = "INSERT INTO Partidas (estado, idSala, idJugador) VALUES (@estado, @idSala, (SELECT id FROM Jugadores WHERE nombre = @nombreJugador))";
+            string query = "INSERT INTO Partidas (estado, idSala, idJugador) VALUES (@Estado, @IdSala, (SELECT id FROM Jugadores WHERE nombre = @NombreJugador))";
             using (SqlConnection connection = new SqlConnection(_connectionString))
             {
                 connection.Execute(query, new { Estado = estado, IdSala = idSala, NombreJugador = nombreJugador });
